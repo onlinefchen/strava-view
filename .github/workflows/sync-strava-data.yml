@@ -81,7 +81,7 @@ jobs:
         
         # Check if there are any changes
         if [ -n "$(git status --porcelain)" ]; then
-          git add data/activities.json generated/ config.js -f
+          git add data/activities.json generated/ config.js
           git commit -m "Auto-update: Sync Strava data and regenerate visualizations $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
           git push
           echo "DATA_UPDATED=true" >> $GITHUB_ENV
