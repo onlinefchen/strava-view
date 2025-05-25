@@ -3,7 +3,7 @@
 <defs />
 <rect fill="#222222" height="120" width="120" x="0" y="0" />
 <text alignment-baseline="middle" fill="#FFFFFF" style="dominant-baseline: central; font-size:9.0px; font-family:Arial;" text-anchor="middle" x="60.0" y="60.0">2025</text>
-<text alignment-baseline="middle" fill="#FFFFFF" style="dominant-baseline: central; font-size:6.0px; font-family:Arial;" text-anchor="start" x="5" y="8">545 km</text>
+<text alignment-baseline="middle" fill="#FFFFFF" style="dominant-baseline: central; font-size:6.0px; font-family:Arial;" text-anchor="start" x="5" y="8">670 km</text>
 <line stroke="#FFFFFF" stroke-width="0.3" x1="60.0" x2="60.0" y1="5.0" y2="0.0"></line>
 <path d="M 60.0 4.0 a56.0,56.0 0 0,1 27.7, 7.3" fill="none" id="month1" stroke="none"></path>
 <text fill="#FFFFFF" style="font-size:5.625px; font-family:Arial;" text-anchor="middle"><textPath startOffset="14.5" xlink:href="#month1">January</textPath></text>
@@ -96,9 +96,36 @@
 <path d="M 73.1 63.4 l 6.5 1.7 a20.18926637332882,20.18926637332882 0 0,0 -0.1,0.3 l -6.4 -1.8" fill="#46fff6" stroke="none"></path>
 <path d="M 73.0 63.6 l 3.9 1.1 a17.59142832966661,17.59142832966661 0 0,0 -0.1,0.3 l -3.9 -1.2" fill="#46fff6" stroke="none"></path>
 <path d="M 72.9 63.8 l 10.6 3.1 a24.535242849889997,24.535242849889997 0 0,0 -0.1,0.4 l -10.5 -3.3" fill="#46fff6" stroke="none"></path>
+<path d="M 72.9 64.1 l 9.9 3.1 a23.924860382467422,23.924860382467422 0 0,0 -0.1,0.4 l -9.9 -3.3" fill="#46fff6" stroke="none"></path>
+<path d="M 72.7 64.5 l 9.2 3.3 a23.256600101540023,23.256600101540023 0 0,0 -0.1,0.4 l -9.1 -3.4" fill="#46fff6" stroke="none"></path>
+<path d="M 72.6 64.7 l 0.0 -0.0 a13.5,13.5 0 0,0 -0.1,0.2 l 0.0 -0.0" fill="#4bddff" stroke="none"></path>
+<path d="M 72.6 64.9 l 0.0 -0.0 a13.5,13.5 0 0,0 -0.1,0.2 l 0.0 -0.0" fill="#4bddff" stroke="none"></path>
+<path d="M 72.4 65.4 l 9.6 4.1 a23.93894906075478,23.93894906075478 0 0,0 -0.2,0.4 l -9.5 -4.3" fill="#46fff6" stroke="none"></path>
+<path d="M 72.3 65.6 l 0.0 -0.0 a13.5,13.5 0 0,0 -0.1,0.2 l 0.0 -0.0" fill="#4bddff" stroke="none"></path>
+<path d="M 72.2 65.8 l 0.0 -0.0 a13.5,13.5 0 0,0 -0.1,0.2 l 0.0 -0.0" fill="#4bddff" stroke="none"></path>
+<path d="M 72.1 66.0 l 9.7 4.8 a24.32124724995769,24.32124724995769 0 0,0 -0.2,0.4 l -9.6 -5.0" fill="#46fff6" stroke="none"></path>
+<path d="M 72.0 66.2 l 8.4 4.3 a22.918281435098997,22.918281435098997 0 0,0 -0.2,0.3 l -8.3 -4.5" fill="#46fff6" stroke="none"></path>
 <line stroke="#FFFFFF" stroke-width="0.3" x1="108.4" x2="112.8" y1="86.1" y2="88.5"></line>
 <path d="M 109.3 86.6 a56.0,56.0 0 0,1 -19.6, 20.9" fill="none" id="month5" stroke="none"></path>
 <text fill="#FFFFFF" style="font-size:5.625px; font-family:Arial;" text-anchor="middle"><textPath startOffset="14.5" xlink:href="#month5">May</textPath></text>
+<path d="M 71.9 66.4 l 9.3 5.0 a24.03014469453376,24.03014469453376 0 0,0 -0.2,0.4 l -9.2 -5.2" fill="#46fff6" stroke="none"></path>
+<path d="M 71.8 66.6 l 10.4 5.8 a25.390654086985954,25.390654086985954 0 0,0 -0.2,0.4 l -10.3 -6.0" fill="#46fff6" stroke="none"></path>
+<path d="M 71.7 66.8 l 5.1 3.0 a19.389829074293452,19.389829074293452 0 0,0 -0.2,0.3 l -5.0 -3.1" fill="#46fff6" stroke="none"></path>
+<path d="M 71.5 67.0 l 9.7 5.9 a24.8413860213234,24.8413860213234 0 0,0 -0.2,0.4 l -9.6 -6.1" fill="#46fff6" stroke="none"></path>
+<path d="M 71.3 67.4 l 5.6 3.6 a20.149475376544252,20.149475376544252 0 0,0 -0.2,0.3 l -5.5 -3.7" fill="#46fff6" stroke="none"></path>
+<path d="M 71.2 67.6 l 5.7 3.9 a20.39279065831782,20.39279065831782 0 0,0 -0.2,0.3 l -5.6 -4.0" fill="#46fff6" stroke="none"></path>
+<path d="M 70.9 68.0 l 9.2 6.8 a24.92420460314774,24.92420460314774 0 0,0 -0.3,0.3 l -9.1 -6.9" fill="#46fff6" stroke="none"></path>
+<path d="M 70.7 68.2 l 0.6 0.4 a14.229374682687427,14.229374682687427 0 0,0 -0.1,0.2 l -0.6 -0.5" fill="#4bddff" stroke="none"></path>
+<path d="M 70.5 68.5 l 8.9 7.3 a25.02339651379252,25.02339651379252 0 0,0 -0.3,0.3 l -8.8 -7.4" fill="#46fff6" stroke="none"></path>
+<path d="M 70.3 68.7 l 7.6 6.5 a23.49782112032493,23.49782112032493 0 0,0 -0.3,0.3 l -7.5 -6.6" fill="#46fff6" stroke="none"></path>
+<path d="M 69.8 69.2 l 3.2 3.0 a17.936029785073615,17.936029785073615 0 0,0 -0.2,0.2 l -3.2 -3.1" fill="#46fff6" stroke="none"></path>
+<path d="M 69.7 69.4 l 12.7 12.3 a31.194999153833134,31.194999153833134 0 0,0 -0.4,0.4 l -12.5 -12.5" fill="#ffe200" stroke="none"></path>
+<path d="M 69.5 69.6 l 13.6 13.6 a32.76226941952953,32.76226941952953 0 0,0 -0.4,0.4 l -13.4 -13.9" fill="#ffe200" stroke="none"></path>
+<path d="M 69.4 69.7 l 11.2 11.6 a29.60697664579455,29.60697664579455 0 0,0 -0.4,0.4 l -11.0 -11.8" fill="#ffe200" stroke="none"></path>
+<path d="M 69.2 69.9 l 7.2 7.7 a24.01967337959045,24.01967337959045 0 0,0 -0.3,0.3 l -7.0 -7.8" fill="#46fff6" stroke="none"></path>
+<path d="M 69.0 70.0 l 7.2 8.0 a24.280885090539854,24.280885090539854 0 0,0 -0.3,0.3 l -7.1 -8.1" fill="#46fff6" stroke="none"></path>
+<path d="M 68.8 70.2 l 3.7 4.3 a19.162696733795904,19.162696733795904 0 0,0 -0.3,0.2 l -3.6 -4.3" fill="#46fff6" stroke="none"></path>
+<path d="M 68.5 70.5 l 10.2 12.6 a29.750338466745642,29.750338466745642 0 0,0 -0.4,0.3 l -10.0 -12.8" fill="#ffe200" stroke="none"></path>
 <line stroke="#FFFFFF" stroke-width="0.3" x1="88.4" x2="91.0" y1="107.1" y2="111.4"></line>
 <path d="M 88.9 108.0 a56.0,56.0 0 0,1 -26.5, 8.0" fill="none" id="month6" stroke="none"></path>
 <text fill="#FFFFFF" style="font-size:5.625px; font-family:Arial;" text-anchor="middle"><textPath startOffset="14.0" xlink:href="#month6">June</textPath></text>
