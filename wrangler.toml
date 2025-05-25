@@ -1,0 +1,18 @@
+# Cloudflare Pages configuration
+name = "strava-view"
+compatibility_date = "2023-12-01"
+
+[build]
+command = "python generate_visualizations.py"
+cwd = "."
+watch_dir = "."
+
+[[build.environment_variables]]
+name = "PYTHON_VERSION"
+value = "3.9"
+
+[env.production]
+name = "strava-view"
+
+[env.production.vars]
+ENVIRONMENT = "production"

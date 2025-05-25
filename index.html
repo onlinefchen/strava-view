@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feng's running page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="config.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Column -->
+        <div class="left-column">
+            <div class="profile-section">
+                <img src="avatar.png" alt="Profile Avatar" class="avatar" id="avatar">
+                <div class="signature" id="signature">
+                    <span id="signature-line1"></span>
+                    <span id="signature-line2"></span>
+                </div>
+            </div>
+            
+            <div class="divider red-divider"></div>
+            
+            <div class="yearly-stats" id="yearly-stats">
+                <div class="year" id="yearly-stats-year"></div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-value">
+                            <span class="stat-number" id="total-activities">-</span>
+                            <span class="stat-label">runs</span>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">
+                            <span class="stat-number" id="total-distance">-</span>
+                            <span class="stat-label">km</span>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">
+                            <span class="stat-number" id="total-time">-</span>
+                            <span class="stat-label">avg pace</span>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">
+                            <span class="stat-number" id="best-pace">-</span>
+                            <span class="stat-label">best pace</span>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">
+                            <span class="stat-number" id="heart-rate">-</span>
+                            <span class="stat-label">avg bpm</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="divider red-divider"></div>
+            
+            <div class="best-activity" id="best-activity">
+                <div class="best-activity-title">Best Performance</div>
+                
+                <!-- Longest Distance Activity -->
+                <div class="performance-section">
+                    <div class="performance-title">🏃 Longest Distance</div>
+                    <div class="performance-details">
+                        <div class="performance-item">
+                            <span class="performance-label">Distance:</span>
+                            <span class="performance-value" id="longest-distance">-</span>
+                        </div>
+                        <div class="performance-item">
+                            <span class="performance-label">City:</span>
+                            <span class="performance-value" id="longest-city">-</span>
+                        </div>
+                        <div class="performance-item">
+                            <span class="performance-label">Date:</span>
+                            <span class="performance-value" id="longest-date">-</span>
+                        </div>
+                        <div class="performance-item">
+                            <span class="performance-label">Duration:</span>
+                            <span class="performance-value" id="longest-duration">-</span>
+                        </div>
+                        <div class="performance-item">
+                            <span class="performance-label">Pace:</span>
+                            <span class="performance-value" id="longest-pace">-</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Best Pace Activity -->
+                <div class="performance-section">
+                    <div class="performance-title">⚡ Best Pace</div>
+                    <div class="performance-details">
+                        <div class="performance-item">
+                            <span class="performance-label">Pace:</span>
+                            <span class="performance-value" id="fastest-pace">-</span>
+                        </div>
+                        <div class="performance-item">
+                            <span class="performance-label">City:</span>
+                            <span class="performance-value" id="fastest-city">-</span>
+                        </div>
+                        <div class="performance-item">
+                            <span class="performance-label">Date:</span>
+                            <span class="performance-value" id="fastest-date">-</span>
+                        </div>
+                        <div class="performance-item">
+                            <span class="performance-label">Distance:</span>
+                            <span class="performance-value" id="fastest-distance">-</span>
+                        </div>
+                        <div class="performance-item">
+                            <span class="performance-label">Duration:</span>
+                            <span class="performance-value" id="fastest-duration">-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- Activity Details Overlay for Left Column -->
+        <div class="activity-details-overlay" id="activity-details-overlay" style="display: none;">
+            <div class="profile-section">
+                <img src="avatar.png" alt="Profile Avatar" class="avatar" id="avatar-overlay">
+                <div class="signature" id="signature-overlay">
+                    <span id="signature-overlay-line1"></span>
+                    <span id="signature-overlay-line2"></span>
+                </div>
+            </div>
+            
+            <div class="activity-details-container">
+                <div class="details-header">
+                    <h3 id="details-title">Activity Details</h3>
+                    <button id="close-details" class="close-btn">×</button>
+                </div>
+                
+                <div class="activity-thumbnail-map" id="activity-thumbnail-map">
+                    <!-- Thumbnail map will be rendered here -->
+                </div>
+                
+                <div class="details-content" id="details-content">
+                    <!-- Activity details will be populated here -->
+                </div>
+            </div>
+        </div>
+        
+        <!-- Right Column -->
+        <div class="right-column">
+            <div class="header-section">
+                <div class="nav-links" id="nav-links">
+                    <!-- Navigation links will be dynamically generated -->
+                </div>
+                
+                <div class="year-selector">
+                    <select id="year-select">
+                        <option value="all">All Years</option>
+                        <option value="2025" selected>2025</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                    </select>
+                    <button class="reset-map-btn" id="reset-map-btn" title="显示所有路线">🔄</button>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <div id="map"></div>
+            </div>
+            
+            
+            <div class="activities-list">
+                <div class="activities-header">
+                    <div class="col-activity">Activity</div>
+                    <div class="col-km">KM</div>
+                    <div class="col-pace">Pace</div>
+                    <div class="col-bpm">BPM</div>
+                    <div class="col-time">Time</div>
+                    <div class="col-date">Date</div>
+                    <div class="col-share">Share</div>
+                </div>
+                <div id="activities-container"></div>
+                <div class="load-more-container" id="load-more-container" style="display: none;">
+                    <button class="load-more-btn" id="load-more-btn">查看更多</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
