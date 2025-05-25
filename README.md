@@ -454,6 +454,11 @@ MIT License - see LICENSE file for details
 - Built with Mapbox GL JS for beautiful maps
 - Designed for the running community
 
+  # Ref:
+  https://github.com/yihong0618/running_page
+  https://github.com/yihong0618/GitHubPoster
+  Thanks!
+
 ---
 
 **Made with ❤️ for runners everywhere**
