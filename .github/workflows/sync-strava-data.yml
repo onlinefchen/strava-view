@@ -43,7 +43,7 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Set up Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v4
       with:
         python-version: '3.11'
     
@@ -92,15 +92,15 @@ jobs:
     
     - name: Setup Pages
       if: env.DATA_UPDATED == 'true' || github.event_name == 'push'
-      uses: actions/configure-pages@v4
+      uses: actions/configure-pages@v3
     
     - name: Upload to GitHub Pages
       if: env.DATA_UPDATED == 'true' || github.event_name == 'push'
-      uses: actions/upload-pages-artifact@v3
+      uses: actions/upload-pages-artifact@v2
       with:
         path: .
     
     - name: Deploy to GitHub Pages
       if: env.DATA_UPDATED == 'true' || github.event_name == 'push'
       id: deployment
-      uses: actions/deploy-pages@v4
+      uses: actions/deploy-pages@v2
