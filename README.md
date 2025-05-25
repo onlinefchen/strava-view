@@ -16,6 +16,8 @@ A beautiful web-based dashboard to visualize your Strava running data, inspired 
 
 Visit the live demo: [https://onlinefchen.github.io/strava-view](https://onlinefchen.github.io/strava-view)
 
+🚀 **Status**: Auto-deployed via GitHub Actions with real-time Strava data sync!
+
 ## Quick Start
 
 ### 1. Set Up Strava API Access
