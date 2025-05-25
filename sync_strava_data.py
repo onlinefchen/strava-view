@@ -179,18 +179,23 @@ class StravaSync:
             return None
         
         try:
-            # Activities should be sorted by date, so take the first one
-            latest_date_str = activities[0].get('start_date')
-            if latest_date_str:
-                return datetime.fromisoformat(latest_date_str.replace('Z', '+00:00'))
+            # Find the most recent start_date from all activities
+            latest_date = None
+            for activity in activities:
+                start_date_str = activity.get('start_date')
+                if start_date_str:
+                    activity_date = datetime.fromisoformat(start_date_str.replace('Z', '+00:00'))
+                    if latest_date is None or activity_date > latest_date:
+                        latest_date = activity_date
+            
+            return latest_date
         except Exception as e:
-            logger.error(f"Failed to parse last activity date: {e}")
-        
-        return None
+            logger.error(f"Failed to parse activity dates: {e}")
+            return None
     
     def sync_activities(self, full_sync: bool = False) -> bool:
         """
-        Sync activities from Strava API.
+        Sync activities from Strava API using running_page's efficient incremental approach.
         
         Args:
             full_sync: If True, fetch all activities. If False, only fetch new ones.
@@ -201,92 +206,99 @@ class StravaSync:
         existing_activities = self.load_existing_activities()
         existing_ids = {act.get('id') for act in existing_activities if act.get('id')}
         
-        # Determine sync parameters
+        # Determine sync parameters (based on running_page logic)
         after_timestamp = None
         if not full_sync and existing_activities:
             last_date = self.get_last_activity_date(existing_activities)
             if last_date:
-                # Fetch activities after the last known activity (with 1 day buffer)
-                after_date = last_date - timedelta(days=1)
+                # Use 7-day buffer like running_page for safety
+                after_date = last_date - timedelta(days=7)
                 after_timestamp = int(after_date.timestamp())
-                logger.info(f"Incremental sync from {after_date.isoformat()}")
+                logger.info(f"Incremental sync from {after_date.isoformat()} (7-day buffer)")
         
-        # Fetch activities from Strava
-        all_new_activities = []
+        # Fetch activities from Strava (summary data only)
+        logger.info("Fetching activity summaries from Strava...")
+        all_activities = []
         page = 1
+        new_count = 0
+        updated_count = 0
         
         while True:
             activities = self.get_athlete_activities(
                 page=page, 
-                per_page=50, 
+                per_page=200,  # Use max per_page for efficiency
                 after=after_timestamp
             )
             
             if not activities:
                 break
             
-            logger.info(f"Fetched {len(activities)} activities from page {page}")
-            
-            # Filter out activities we already have (for incremental sync)
-            new_activities = []
+            # Process activities immediately (streaming approach)
             for activity in activities:
-                if activity.get('id') not in existing_ids:
-                    new_activities.append(activity)
+                activity_id = activity.get('id')
+                if not activity_id:
+                    continue
+                
+                # Check if this is a new activity
+                if activity_id not in existing_ids:
+                    # Get detailed activity data only for new activities
+                    detailed_activity = self.get_activity_details(activity_id)
+                    if detailed_activity:
+                        all_activities.append(detailed_activity)
+                        new_count += 1
+                        print("+", end="", flush=True)  # Running_page style progress
+                else:
+                    # Activity already exists, just add the summary (for potential updates)
+                    # Find existing activity and update if needed
+                    for i, existing in enumerate(existing_activities):
+                        if existing.get('id') == activity_id:
+                            # Update with latest summary data
+                            existing_activities[i] = activity
+                            updated_count += 1
+                            print(".", end="", flush=True)  # Running_page style progress
+                            break
+                    
+                # Small delay to respect rate limits
+                time.sleep(0.1)
             
-            all_new_activities.extend(new_activities)
+            logger.info(f"Processed page {page}: {len(activities)} activities")
             
-            # If we got less than 50 activities, we've reached the end
-            if len(activities) < 50:
+            # If we got less than 200 activities, we've reached the end
+            if len(activities) < 200:
                 break
             
             page += 1
-            
-            # Add delay to respect rate limits
-            time.sleep(1)
         
-        logger.info(f"Found {len(all_new_activities)} new activities")
+        print()  # New line after progress indicators
+        logger.info(f"Sync completed: {new_count} new, {updated_count} updated")
         
-        # Fetch detailed information for new activities
-        detailed_activities = []
-        for i, activity in enumerate(all_new_activities):
-            activity_id = activity.get('id')
-            if not activity_id:
-                continue
+        # Only save if we have new activities or this is a full sync
+        if new_count > 0 or full_sync:
+            # Combine new activities with existing ones
+            if full_sync:
+                final_activities = all_activities
+            else:
+                final_activities = all_activities + existing_activities
             
-            logger.info(f"Processing activity {i+1}/{len(all_new_activities)}: {activity_id}")
+            # Remove duplicates based on ID (preserve newer data)
+            seen_ids = set()
+            unique_activities = []
+            for activity in final_activities:
+                activity_id = activity.get('id')
+                if activity_id and activity_id not in seen_ids:
+                    seen_ids.add(activity_id)
+                    unique_activities.append(activity)
             
-            # Get detailed activity data
-            detailed_activity = self.get_activity_details(activity_id)
-            if detailed_activity:
-                detailed_activities.append(detailed_activity)
-            
-            # Rate limiting: sleep between requests
-            time.sleep(0.5)
-        
-        # Combine with existing activities
-        if full_sync:
-            # Replace all activities
-            final_activities = detailed_activities
+            # Save updated activities
+            if self.save_activities(unique_activities):
+                logger.info(f"Saved {len(unique_activities)} total activities")
+                return True
+            else:
+                logger.error("Failed to save activities")
+                return False
         else:
-            # Add new activities to existing ones
-            final_activities = detailed_activities + existing_activities
-        
-        # Remove duplicates based on ID
-        seen_ids = set()
-        unique_activities = []
-        for activity in final_activities:
-            activity_id = activity.get('id')
-            if activity_id and activity_id not in seen_ids:
-                seen_ids.add(activity_id)
-                unique_activities.append(activity)
-        
-        # Save updated activities
-        if self.save_activities(unique_activities):
-            logger.info(f"Sync completed successfully. Total activities: {len(unique_activities)}")
+            logger.info("No new activities found, skipping save")
             return True
-        else:
-            logger.error("Failed to save activities")
-            return False
 
 def main():
     """Main function to run the sync process."""
