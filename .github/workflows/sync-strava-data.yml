@@ -24,9 +24,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
-  actions: read
 
 # Allow only one concurrent deployment
 concurrency:
@@ -91,22 +88,30 @@ jobs:
           echo "DATA_UPDATED=false" >> $GITHUB_ENV
         fi
     
-    - name: Setup Pages
+    - name: Deploy to GitHub Pages (via gh-pages branch)
       if: env.DATA_UPDATED == 'true' || github.event_name == 'push'
-      uses: actions/configure-pages@v4
-      with:
-        enablement: true
-    
-    - name: Upload to GitHub Pages
-      if: env.DATA_UPDATED == 'true' || github.event_name == 'push'
-      uses: actions/upload-pages-artifact@v3
-      with:
-        name: pages-artifact
-        path: .
-    
-    - name: Deploy to GitHub Pages
-      if: env.DATA_UPDATED == 'true' || github.event_name == 'push'
-      id: deployment
-      uses: actions/deploy-pages@v4
-      with:
-        artifact_name: pages-artifact
+      run: |
+        # Configure git for deployment
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        
+        # Create and switch to gh-pages branch
+        git checkout --orphan gh-pages
+        
+        # Remove files we don't want in the deployed site
+        git rm -rf .github/
+        git rm -f requirements.txt
+        git rm -f sync_strava_data.py
+        git rm -f calculate_stats.py
+        git rm -f generate_visualizations.py
+        git rm -f generate_config.py
+        git rm -f prompt.txt
+        git rm -f wrangler.toml
+        git rm -f README.md
+        
+        # Add all remaining files for deployment
+        git add .
+        git commit -m "Deploy Strava dashboard - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+        
+        # Force push to gh-pages branch
+        git push origin gh-pages --force
