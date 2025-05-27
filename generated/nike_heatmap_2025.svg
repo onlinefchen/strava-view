@@ -2,7 +2,7 @@
 <svg baseProfile="full" height="120" version="1.1" viewBox="0,0,670.1428571428572,120" width="670.1428571428572" xmlns="http://www.w3.org/2000/svg">
 <defs />
 <rect fill="#222222" height="120" width="670.1428571428572" x="0" y="0" />
-<text fill="#FFFFFF" style="font-size:11px; font-family:Arial; font-weight:bold;" text-anchor="start" x="10" y="12">670 km</text>
+<text fill="#FFFFFF" style="font-size:11px; font-family:Arial; font-weight:bold;" text-anchor="start" x="10" y="12">679 km</text>
 <text fill="#8b949e" style="font-size:9px; font-family:Arial;" text-anchor="start" x="10.0" y="25">Jan</text>
 <text fill="#8b949e" style="font-size:9px; font-family:Arial;" text-anchor="start" x="59.1" y="25">Feb</text>
 <text fill="#8b949e" style="font-size:9px; font-family:Arial;" text-anchor="start" x="108.3" y="25">Mar</text>
@@ -453,8 +453,8 @@
 <rect x="268.0" y="27.0" width="11.3" height="11.3" fill="#444444" rx="1.1">
 <title>2025-05-26</title>
 </rect>
-<rect x="268.0" y="39.3" width="11.3" height="11.3" fill="#444444" rx="1.1">
-<title>2025-05-27</title>
+<rect x="268.0" y="39.3" width="11.3" height="11.3" fill="red" rx="1.1">
+<title>2025-05-27: 9.33 km (2 activities)</title>
 </rect>
 <rect x="268.0" y="51.6" width="11.3" height="11.3" fill="#444444" rx="1.1">
 <title>2025-05-28</title>
