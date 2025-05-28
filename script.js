@@ -7,6 +7,38 @@ let currentYear = new Date().getFullYear();
 let displayedActivities = 14; // Show only 14 activities initially
 const activitiesPerPage = 14;
 
+// Get timezone configuration from CONFIG
+function getTimezoneConfig() {
+    if (typeof CONFIG !== 'undefined' && CONFIG.TIMEZONE) {
+        return {
+            offset: CONFIG.TIMEZONE.offset || 8,
+            name: CONFIG.TIMEZONE.name || 'Asia/Shanghai'
+        };
+    }
+    // Default to UTC+8 (Beijing time) if not configured
+    return { offset: 8, name: 'Asia/Shanghai' };
+}
+
+// Helper function to parse local datetime properly using configured timezone
+function parseLocalDateTime(dateString) {
+    if (!dateString) return null;
+    
+    const timezoneConfig = getTimezoneConfig();
+    
+    // If it ends with 'Z', it's UTC time, convert to configured local timezone
+    if (dateString.endsWith('Z')) {
+        const utcDate = new Date(dateString);
+        // Convert to configured local time
+        const configuredOffset = timezoneConfig.offset * 60; // hours to minutes
+        const localOffset = utcDate.getTimezoneOffset(); // Local browser offset in minutes (negative for UTC+)
+        const configuredTime = new Date(utcDate.getTime() + (configuredOffset + localOffset) * 60 * 1000);
+        return configuredTime;
+    } else {
+        // Assume it's already local time
+        return new Date(dateString);
+    }
+}
+
 // Initialize the application
 document.addEventListener('DOMContentLoaded', async function() {
     await loadActivitiesData();
@@ -23,6 +55,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     updateYearlyStats();
     updateLeftSidebarYear(currentYear);
     updateProfileFromConfig();
+    updateTimezoneDisplay();
 });
 
 // Generate navigation links from config
@@ -124,7 +157,7 @@ function getRecentActivitiesForBounds() {
     
     return activitiesData.filter(activity => {
         if (!activity.start_date_local) return false;
-        const activityDate = new Date(activity.start_date_local);
+        const activityDate = parseLocalDateTime(activity.start_date_local);
         return activityDate >= sixMonthsAgo;
     });
 }
@@ -342,7 +375,7 @@ function showActivityDetails(activity) {
     
     // Populate activity details
     const detailsContent = document.getElementById('details-content');
-    const date = new Date(activity.start_date_local);
+    const date = parseLocalDateTime(activity.start_date_local);
     
     detailsContent.innerHTML = `
         <div class="detail-item">
@@ -678,7 +711,7 @@ function createActivityElement(activity) {
     const div = document.createElement('div');
     div.className = 'activity-item';
     
-    const date = new Date(activity.start_date_local);
+    const date = parseLocalDateTime(activity.start_date_local);
     const distance = (activity.distance / 1000).toFixed(1);
     const pace = calculatePace(activity);
     const duration = formatDuration(activity.moving_time);
@@ -746,7 +779,7 @@ function getFilteredActivities() {
     }
     
     return activitiesData.filter(activity => {
-        const activityYear = new Date(activity.start_date_local).getFullYear();
+        const activityYear = parseLocalDateTime(activity.start_date_local).getFullYear();
         return activityYear === parseInt(currentYear);
     });
 }
@@ -817,7 +850,7 @@ function updateBestPerformance(activity) {
     
     // Format start time (assuming start_date_local exists)
     const startTime = activity.start_date_local ? 
-        new Date(activity.start_date_local).toLocaleTimeString('en-US', { 
+        parseLocalDateTime(activity.start_date_local).toLocaleTimeString('en-US', { 
             hour: '2-digit', 
             minute: '2-digit', 
             hour12: false 
@@ -873,7 +906,7 @@ function calculateStreak(activities) {
     if (activities.length === 0) return 0;
     
     const dates = activities
-        .map(activity => new Date(activity.start_date_local).toDateString())
+        .map(activity => parseLocalDateTime(activity.start_date_local).toDateString())
         .filter((date, index, arr) => arr.indexOf(date) === index)
         .sort((a, b) => new Date(b) - new Date(a));
     
@@ -1042,7 +1075,7 @@ function updateLeftSidebarForTwoYears(currentYear, previousYear) {
 // Create year stats section
 function createYearStatsSection(year, isCurrentYear) {
     const yearActivities = activitiesData.filter(activity => {
-        const activityYear = new Date(activity.start_date_local).getFullYear();
+        const activityYear = parseLocalDateTime(activity.start_date_local).getFullYear();
         return activityYear === year;
     });
     
@@ -1095,6 +1128,18 @@ function createYearStatsSection(year, isCurrentYear) {
     `;
     
     return section;
+}
+
+// Update timezone display
+function updateTimezoneDisplay() {
+    const timezoneConfig = getTimezoneConfig();
+    const timezoneElement = document.getElementById('timezone-value');
+    
+    if (timezoneElement) {
+        const offset = timezoneConfig.offset;
+        const offsetString = `UTC${offset >= 0 ? '+' : ''}${offset}`;
+        timezoneElement.textContent = offsetString;
+    }
 }
 
 // Update profile from config

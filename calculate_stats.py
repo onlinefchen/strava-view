@@ -6,8 +6,9 @@ This script processes activities.json and generates pre-calculated stats for eac
 
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from collections import defaultdict
+from timezone_config import parse_local_datetime, get_timezone_info
 
 def load_activities():
     """Load activities from JSON file."""
@@ -40,7 +41,7 @@ def format_time(total_seconds):
 def format_date(date_string):
     """Format date as MM/DD."""
     try:
-        dt = datetime.fromisoformat(date_string.replace('Z', '+00:00'))
+        dt = parse_local_datetime(date_string)
         return dt.strftime("%m/%d")
     except:
         return "N/A"
@@ -94,7 +95,7 @@ def calculate_yearly_stats():
             continue
             
         try:
-            date = datetime.fromisoformat(activity['start_date_local'].replace('Z', '+00:00'))
+            date = parse_local_datetime(activity['start_date_local'])
             year = date.year
             
             # Only include runs with valid distance and time

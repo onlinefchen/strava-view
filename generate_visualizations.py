@@ -7,9 +7,10 @@ This script processes activities.json and generates SVG visualizations.
 import json
 import os
 import sys
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import math
 import calendar
+from timezone_config import parse_local_datetime, get_timezone_info
 
 def load_activities(file_path='data/activities.json'):
     """Load activities from JSON file."""
@@ -37,7 +38,9 @@ def generate_clock_visualization(activities, year=None, size=120):
     # Filter activities by year and aggregate by date
     for activity in activities:
         try:
-            start_time = datetime.fromisoformat(activity['start_date_local'].replace('Z', '+00:00'))
+            # Use start_date_local with proper timezone handling
+            start_time = parse_local_datetime(activity['start_date_local'])
+            
             if start_time.year == year:
                 date_str = start_time.strftime('%Y-%m-%d')
                 distance_km = activity['distance'] / 1000
@@ -193,15 +196,21 @@ def generate_heatmap_visualization(activities, year=None):
     # Filter activities by year if specified
     filtered_activities = activities
     if year:
-        filtered_activities = [
-            activity for activity in activities
-            if datetime.fromisoformat(activity['start_date_local'].replace('Z', '+00:00')).year == year
-        ]
+        temp_filtered = []
+        for activity in activities:
+            try:
+                start_time = parse_local_datetime(activity['start_date_local'])
+                
+                if start_time.year == year:
+                    temp_filtered.append(activity)
+            except (ValueError, KeyError):
+                continue
+        filtered_activities = temp_filtered
     
     # Aggregate activity data
     for activity in filtered_activities:
         try:
-            activity_date = datetime.fromisoformat(activity['start_date_local'].replace('Z', '+00:00'))
+            activity_date = parse_local_datetime(activity["start_date_local"])
             date_str = activity_date.strftime('%Y-%m-%d')
             if date_str in date_data:
                 date_data[date_str]['distance'] += activity['distance'] / 1000  # Convert to km
@@ -297,13 +306,13 @@ def generate_nike_style_heatmap(activities, year=None):
     if year:
         filtered_activities = [
             activity for activity in activities
-            if datetime.fromisoformat(activity['start_date_local'].replace('Z', '+00:00')).year == year
+            if parse_local_datetime(activity["start_date_local"]).year == year
         ]
     
     # Aggregate activity data
     for activity in filtered_activities:
         try:
-            activity_date = datetime.fromisoformat(activity['start_date_local'].replace('Z', '+00:00'))
+            activity_date = parse_local_datetime(activity["start_date_local"])
             date_str = activity_date.strftime('%Y-%m-%d')
             if date_str in date_data:
                 date_data[date_str]['distance'] += activity['distance'] / 1000  # Convert to km
@@ -463,7 +472,7 @@ def calculate_yearly_stats(activities, year=None):
     if year:
         filtered_activities = [
             activity for activity in activities
-            if datetime.fromisoformat(activity['start_date_local'].replace('Z', '+00:00')).year == year
+            if parse_local_datetime(activity["start_date_local"]).year == year
         ]
     
     if not filtered_activities:
@@ -522,7 +531,7 @@ def calculate_streak(activities):
     activity_dates = set()
     for activity in activities:
         try:
-            activity_date = datetime.fromisoformat(activity['start_date_local'].replace('Z', '+00:00'))
+            activity_date = parse_local_datetime(activity["start_date_local"])
             activity_dates.add(activity_date.date())
         except (ValueError, KeyError):
             continue
@@ -626,7 +635,7 @@ def main():
     years = set()
     for activity in activities:
         try:
-            activity_date = datetime.fromisoformat(activity['start_date_local'].replace('Z', '+00:00'))
+            activity_date = parse_local_datetime(activity["start_date_local"])
             years.add(activity_date.year)
         except (ValueError, KeyError):
             continue

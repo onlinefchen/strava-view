@@ -11,6 +11,7 @@ import time
 from datetime import datetime, timedelta
 from typing import List, Dict, Any, Optional
 import logging
+from timezone_config import parse_local_datetime, get_timezone_info
 
 # Configure logging
 logging.basicConfig(
@@ -179,13 +180,14 @@ class StravaSync:
             return None
         
         try:
-            # Find the most recent start_date from all activities
+            # Find the most recent start_date_local from all activities
             latest_date = None
             for activity in activities:
-                start_date_str = activity.get('start_date')
+                # Use start_date_local for local timezone or start_date as fallback
+                start_date_str = activity.get('start_date_local') or activity.get('start_date')
                 if start_date_str:
-                    activity_date = datetime.fromisoformat(start_date_str.replace('Z', '+00:00'))
-                    if latest_date is None or activity_date > latest_date:
+                    activity_date = parse_local_datetime(start_date_str)
+                    if activity_date and (latest_date is None or activity_date > latest_date):
                         latest_date = activity_date
             
             return latest_date

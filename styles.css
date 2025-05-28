@@ -124,7 +124,7 @@ body::before {
 
 .signature {
     position: absolute;
-    bottom: 0;
+    bottom: 25px;
     right: 0;
     color: #8b949e;
     font-size: 1.1rem;
@@ -133,6 +133,27 @@ body::before {
     display: flex;
     gap: 1rem;
     align-items: center;
+}
+
+.timezone-info {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #6e7681;
+    font-size: 0.85rem;
+    text-align: right;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.timezone-label {
+    color: #8b949e;
+}
+
+.timezone-value {
+    color: #ffd700;
+    font-weight: 600;
 }
 
 .yearly-stats {

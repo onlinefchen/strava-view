@@ -3,6 +3,18 @@ const CONFIG = {
     // Your Mapbox access token (required)
     MAPBOX_ACCESS_TOKEN: 'your_mapbox_token_here',
     
+    // Timezone configuration - set your local timezone
+    TIMEZONE: {
+        offset: 8,  // UTC offset in hours (e.g., 8 for UTC+8 Beijing time, -5 for UTC-5 Eastern time)
+        name: 'Asia/Shanghai'  // IANA timezone name (optional, for better accuracy)
+        // Common examples:
+        // Beijing/Shanghai: offset: 8, name: 'Asia/Shanghai'
+        // New York: offset: -5, name: 'America/New_York' (EST) or offset: -4 (EDT)
+        // London: offset: 0, name: 'Europe/London' (GMT) or offset: 1 (BST)  
+        // Tokyo: offset: 9, name: 'Asia/Tokyo'
+        // Los Angeles: offset: -8, name: 'America/Los_Angeles' (PST) or offset: -7 (PDT)
+    },
+    
     // Personal signature - customize your personal motto
     SIGNATURE: {
         line1: '数据见证力量',
