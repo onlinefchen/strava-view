@@ -888,134 +888,134 @@
   <rect x="886" y="122" width="18" height="18" fill="#444444" class="heatmap-cell">
     <title>2024-10-16: 0.0km (0 activities)</title>
   </rect>
-  <rect x="886" y="143" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-10-17: 5.6km (1 activities)</title>
+  <rect x="886" y="143" width="18" height="18" fill="#444444" class="heatmap-cell">
+    <title>2024-10-17: 0.0km (0 activities)</title>
   </rect>
   <rect x="886" y="164" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-10-18: 6.9km (3 activities)</title>
+    <title>2024-10-18: 5.6km (2 activities)</title>
   </rect>
   <rect x="886" y="185" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-10-19: 6.3km (3 activities)</title>
+    <title>2024-10-19: 6.9km (3 activities)</title>
   </rect>
-  <rect x="886" y="206" width="18" height="18" fill="#444444" class="heatmap-cell">
-    <title>2024-10-20: 0.0km (0 activities)</title>
+  <rect x="886" y="206" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
+    <title>2024-10-20: 6.3km (2 activities)</title>
   </rect>
-  <rect x="907" y="80" width="18" height="18" fill="#ffef00" class="heatmap-cell">
-    <title>2024-10-21: 3.8km (2 activities)</title>
+  <rect x="907" y="80" width="18" height="18" fill="#444444" class="heatmap-cell">
+    <title>2024-10-21: 0.0km (1 activities)</title>
   </rect>
-  <rect x="907" y="101" width="18" height="18" fill="#444444" class="heatmap-cell">
-    <title>2024-10-22: 0.0km (1 activities)</title>
+  <rect x="907" y="101" width="18" height="18" fill="#ffef00" class="heatmap-cell">
+    <title>2024-10-22: 3.8km (1 activities)</title>
   </rect>
-  <rect x="907" y="122" width="18" height="18" fill="#ffef00" class="heatmap-cell">
-    <title>2024-10-23: 3.1km (1 activities)</title>
+  <rect x="907" y="122" width="18" height="18" fill="#444444" class="heatmap-cell">
+    <title>2024-10-23: 0.0km (1 activities)</title>
   </rect>
-  <rect x="907" y="143" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-10-24: 5.3km (3 activities)</title>
+  <rect x="907" y="143" width="18" height="18" fill="#ffef00" class="heatmap-cell">
+    <title>2024-10-24: 3.1km (2 activities)</title>
   </rect>
-  <rect x="907" y="164" width="18" height="18" fill="#444444" class="heatmap-cell">
-    <title>2024-10-25: 0.0km (3 activities)</title>
+  <rect x="907" y="164" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
+    <title>2024-10-25: 5.3km (3 activities)</title>
   </rect>
   <rect x="907" y="185" width="18" height="18" fill="#444444" class="heatmap-cell">
-    <title>2024-10-26: 0.0km (0 activities)</title>
+    <title>2024-10-26: 0.0km (2 activities)</title>
   </rect>
-  <rect x="907" y="206" width="18" height="18" fill="#fff300" class="heatmap-cell">
-    <title>2024-10-27: 3.0km (2 activities)</title>
+  <rect x="907" y="206" width="18" height="18" fill="#f4ea5c" class="heatmap-cell">
+    <title>2024-10-27: 1.2km (1 activities)</title>
   </rect>
-  <rect x="928" y="80" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-10-28: 5.2km (1 activities)</title>
+  <rect x="928" y="80" width="18" height="18" fill="#f4ea5c" class="heatmap-cell">
+    <title>2024-10-28: 1.8km (1 activities)</title>
   </rect>
   <rect x="928" y="101" width="18" height="18" fill="red" class="heatmap-cell">
-    <title>2024-10-29: 7.3km (4 activities)</title>
+    <title>2024-10-29: 10.4km (3 activities)</title>
   </rect>
-  <rect x="928" y="122" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-10-30: 5.2km (3 activities)</title>
+  <rect x="928" y="122" width="18" height="18" fill="#fff300" class="heatmap-cell">
+    <title>2024-10-30: 2.1km (3 activities)</title>
   </rect>
-  <rect x="928" y="143" width="18" height="18" fill="#444444" class="heatmap-cell">
-    <title>2024-10-31: 0.0km (0 activities)</title>
+  <rect x="928" y="143" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
+    <title>2024-10-31: 5.2km (2 activities)</title>
   </rect>
   <rect x="928" y="164" width="18" height="18" fill="#fff300" class="heatmap-cell">
-    <title>2024-11-01: 2.4km (3 activities)</title>
+    <title>2024-11-01: 2.4km (2 activities)</title>
   </rect>
   <rect x="928" y="185" width="18" height="18" fill="#fff300" class="heatmap-cell">
-    <title>2024-11-02: 2.9km (2 activities)</title>
+    <title>2024-11-02: 2.9km (3 activities)</title>
   </rect>
-  <rect x="928" y="206" width="18" height="18" fill="red" class="heatmap-cell">
-    <title>2024-11-03: 10.1km (1 activities)</title>
+  <rect x="928" y="206" width="18" height="18" fill="#444444" class="heatmap-cell">
+    <title>2024-11-03: 0.0km (0 activities)</title>
   </rect>
-  <rect x="949" y="80" width="18" height="18" fill="#fff300" class="heatmap-cell">
-    <title>2024-11-04: 2.7km (2 activities)</title>
+  <rect x="949" y="80" width="18" height="18" fill="red" class="heatmap-cell">
+    <title>2024-11-04: 10.1km (2 activities)</title>
   </rect>
   <rect x="949" y="101" width="18" height="18" fill="red" class="heatmap-cell">
-    <title>2024-11-05: 9.2km (3 activities)</title>
+    <title>2024-11-05: 7.9km (3 activities)</title>
   </rect>
   <rect x="949" y="122" width="18" height="18" fill="red" class="heatmap-cell">
-    <title>2024-11-06: 9.0km (5 activities)</title>
+    <title>2024-11-06: 11.3km (4 activities)</title>
   </rect>
-  <rect x="949" y="143" width="18" height="18" fill="red" class="heatmap-cell">
-    <title>2024-11-07: 8.2km (4 activities)</title>
+  <rect x="949" y="143" width="18" height="18" fill="#ffe900" class="heatmap-cell">
+    <title>2024-11-07: 4.5km (3 activities)</title>
   </rect>
   <rect x="949" y="164" width="18" height="18" fill="red" class="heatmap-cell">
-    <title>2024-11-08: 12.1km (6 activities)</title>
+    <title>2024-11-08: 9.4km (6 activities)</title>
   </rect>
   <rect x="949" y="185" width="18" height="18" fill="red" class="heatmap-cell">
-    <title>2024-11-09: 12.0km (6 activities)</title>
+    <title>2024-11-09: 20.0km (8 activities)</title>
   </rect>
-  <rect x="949" y="206" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-11-10: 5.3km (2 activities)</title>
+  <rect x="949" y="206" width="18" height="18" fill="#444444" class="heatmap-cell">
+    <title>2024-11-10: 0.0km (1 activities)</title>
   </rect>
-  <rect x="970" y="80" width="18" height="18" fill="#fff300" class="heatmap-cell">
-    <title>2024-11-11: 2.2km (4 activities)</title>
+  <rect x="970" y="80" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
+    <title>2024-11-11: 5.3km (3 activities)</title>
   </rect>
   <rect x="970" y="101" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-11-12: 6.8km (4 activities)</title>
+    <title>2024-11-12: 6.8km (6 activities)</title>
   </rect>
-  <rect x="970" y="122" width="18" height="18" fill="red" class="heatmap-cell">
-    <title>2024-11-13: 7.3km (3 activities)</title>
+  <rect x="970" y="122" width="18" height="18" fill="#fff300" class="heatmap-cell">
+    <title>2024-11-13: 2.1km (1 activities)</title>
   </rect>
-  <rect x="970" y="143" width="18" height="18" fill="#ffe900" class="heatmap-cell">
-    <title>2024-11-14: 4.8km (2 activities)</title>
+  <rect x="970" y="143" width="18" height="18" fill="red" class="heatmap-cell">
+    <title>2024-11-14: 9.1km (4 activities)</title>
   </rect>
-  <rect x="970" y="164" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-11-15: 5.6km (1 activities)</title>
+  <rect x="970" y="164" width="18" height="18" fill="#ffef00" class="heatmap-cell">
+    <title>2024-11-15: 3.0km (1 activities)</title>
   </rect>
-  <rect x="970" y="185" width="18" height="18" fill="#f4ea5c" class="heatmap-cell">
-    <title>2024-11-16: 1.8km (2 activities)</title>
+  <rect x="970" y="185" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
+    <title>2024-11-16: 5.6km (2 activities)</title>
   </rect>
   <rect x="970" y="206" width="18" height="18" fill="red" class="heatmap-cell">
-    <title>2024-11-17: 15.4km (2 activities)</title>
+    <title>2024-11-17: 17.1km (3 activities)</title>
   </rect>
-  <rect x="991" y="80" width="18" height="18" fill="#fff300" class="heatmap-cell">
-    <title>2024-11-18: 2.7km (4 activities)</title>
+  <rect x="991" y="80" width="18" height="18" fill="#444444" class="heatmap-cell">
+    <title>2024-11-18: 0.0km (2 activities)</title>
   </rect>
-  <rect x="991" y="101" width="18" height="18" fill="#444444" class="heatmap-cell">
-    <title>2024-11-19: 0.0km (2 activities)</title>
+  <rect x="991" y="101" width="18" height="18" fill="#fff300" class="heatmap-cell">
+    <title>2024-11-19: 2.7km (3 activities)</title>
   </rect>
   <rect x="991" y="122" width="18" height="18" fill="#444444" class="heatmap-cell">
-    <title>2024-11-20: 0.0km (1 activities)</title>
+    <title>2024-11-20: 0.0km (2 activities)</title>
   </rect>
-  <rect x="991" y="143" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-11-21: 5.2km (2 activities)</title>
+  <rect x="991" y="143" width="18" height="18" fill="#444444" class="heatmap-cell">
+    <title>2024-11-21: 0.0km (1 activities)</title>
   </rect>
   <rect x="991" y="164" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-11-22: 6.0km (2 activities)</title>
+    <title>2024-11-22: 5.2km (2 activities)</title>
   </rect>
-  <rect x="991" y="185" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-11-23: 5.4km (2 activities)</title>
+  <rect x="991" y="185" width="18" height="18" fill="red" class="heatmap-cell">
+    <title>2024-11-23: 11.4km (3 activities)</title>
   </rect>
   <rect x="991" y="206" width="18" height="18" fill="red" class="heatmap-cell">
     <title>2024-11-24: 21.1km (1 activities)</title>
   </rect>
-  <rect x="1012" y="80" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-11-25: 5.2km (2 activities)</title>
+  <rect x="1012" y="80" width="18" height="18" fill="#444444" class="heatmap-cell">
+    <title>2024-11-25: 0.0km (1 activities)</title>
   </rect>
-  <rect x="1012" y="101" width="18" height="18" fill="#fff300" class="heatmap-cell">
-    <title>2024-11-26: 2.7km (2 activities)</title>
+  <rect x="1012" y="101" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
+    <title>2024-11-26: 5.2km (1 activities)</title>
   </rect>
-  <rect x="1012" y="122" width="18" height="18" fill="#f4ea5c" class="heatmap-cell">
-    <title>2024-11-27: 1.7km (2 activities)</title>
+  <rect x="1012" y="122" width="18" height="18" fill="#fff300" class="heatmap-cell">
+    <title>2024-11-27: 2.7km (3 activities)</title>
   </rect>
-  <rect x="1012" y="143" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-11-28: 5.4km (1 activities)</title>
+  <rect x="1012" y="143" width="18" height="18" fill="red" class="heatmap-cell">
+    <title>2024-11-28: 7.1km (2 activities)</title>
   </rect>
   <rect x="1012" y="164" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
     <title>2024-11-29: 5.5km (1 activities)</title>
@@ -1024,19 +1024,19 @@
     <title>2024-11-30: 6.1km (1 activities)</title>
   </rect>
   <rect x="1012" y="206" width="18" height="18" fill="red" class="heatmap-cell">
-    <title>2024-12-01: 14.9km (3 activities)</title>
+    <title>2024-12-01: 11.3km (2 activities)</title>
   </rect>
-  <rect x="1033" y="80" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-12-02: 5.3km (2 activities)</title>
+  <rect x="1033" y="80" width="18" height="18" fill="red" class="heatmap-cell">
+    <title>2024-12-02: 8.8km (3 activities)</title>
   </rect>
   <rect x="1033" y="101" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-12-03: 5.2km (2 activities)</title>
+    <title>2024-12-03: 5.2km (1 activities)</title>
   </rect>
   <rect x="1033" y="122" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
     <title>2024-12-04: 5.3km (2 activities)</title>
   </rect>
   <rect x="1033" y="143" width="18" height="18" fill="#444444" class="heatmap-cell">
-    <title>2024-12-05: 0.0km (0 activities)</title>
+    <title>2024-12-05: 0.0km (1 activities)</title>
   </rect>
   <rect x="1033" y="164" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
     <title>2024-12-06: 6.3km (2 activities)</title>
@@ -1044,41 +1044,41 @@
   <rect x="1033" y="185" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
     <title>2024-12-07: 5.8km (1 activities)</title>
   </rect>
-  <rect x="1033" y="206" width="18" height="18" fill="red" class="heatmap-cell">
-    <title>2024-12-08: 11.2km (1 activities)</title>
+  <rect x="1033" y="206" width="18" height="18" fill="#444444" class="heatmap-cell">
+    <title>2024-12-08: 0.0km (0 activities)</title>
   </rect>
-  <rect x="1054" y="80" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-12-09: 5.6km (2 activities)</title>
+  <rect x="1054" y="80" width="18" height="18" fill="red" class="heatmap-cell">
+    <title>2024-12-09: 11.2km (1 activities)</title>
   </rect>
   <rect x="1054" y="101" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-12-10: 5.2km (2 activities)</title>
+    <title>2024-12-10: 5.6km (2 activities)</title>
   </rect>
-  <rect x="1054" y="122" width="18" height="18" fill="#444444" class="heatmap-cell">
-    <title>2024-12-11: 0.0km (1 activities)</title>
+  <rect x="1054" y="122" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
+    <title>2024-12-11: 5.2km (3 activities)</title>
   </rect>
   <rect x="1054" y="143" width="18" height="18" fill="#444444" class="heatmap-cell">
     <title>2024-12-12: 0.0km (0 activities)</title>
   </rect>
-  <rect x="1054" y="164" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-12-13: 5.3km (2 activities)</title>
+  <rect x="1054" y="164" width="18" height="18" fill="#444444" class="heatmap-cell">
+    <title>2024-12-13: 0.0km (0 activities)</title>
   </rect>
   <rect x="1054" y="185" width="18" height="18" fill="red" class="heatmap-cell">
-    <title>2024-12-14: 8.5km (2 activities)</title>
+    <title>2024-12-14: 10.8km (3 activities)</title>
   </rect>
   <rect x="1054" y="206" width="18" height="18" fill="red" class="heatmap-cell">
-    <title>2024-12-15: 10.7km (1 activities)</title>
+    <title>2024-12-15: 13.7km (2 activities)</title>
   </rect>
   <rect x="1075" y="80" width="18" height="18" fill="#444444" class="heatmap-cell">
     <title>2024-12-16: 0.0km (0 activities)</title>
   </rect>
   <rect x="1075" y="101" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-12-17: 5.2km (4 activities)</title>
+    <title>2024-12-17: 5.2km (3 activities)</title>
   </rect>
-  <rect x="1075" y="122" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-12-18: 5.3km (3 activities)</title>
+  <rect x="1075" y="122" width="18" height="18" fill="#f4ec5e" class="heatmap-cell">
+    <title>2024-12-18: 0.0km (3 activities)</title>
   </rect>
-  <rect x="1075" y="143" width="18" height="18" fill="#444444" class="heatmap-cell">
-    <title>2024-12-19: 0.0km (0 activities)</title>
+  <rect x="1075" y="143" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
+    <title>2024-12-19: 5.2km (1 activities)</title>
   </rect>
   <rect x="1075" y="164" width="18" height="18" fill="#444444" class="heatmap-cell">
     <title>2024-12-20: 0.0km (0 activities)</title>
@@ -1086,34 +1086,34 @@
   <rect x="1075" y="185" width="18" height="18" fill="red" class="heatmap-cell">
     <title>2024-12-21: 8.3km (1 activities)</title>
   </rect>
-  <rect x="1075" y="206" width="18" height="18" fill="red" class="heatmap-cell">
-    <title>2024-12-22: 10.3km (1 activities)</title>
+  <rect x="1075" y="206" width="18" height="18" fill="#444444" class="heatmap-cell">
+    <title>2024-12-22: 0.0km (0 activities)</title>
   </rect>
-  <rect x="1096" y="80" width="18" height="18" fill="#fff300" class="heatmap-cell">
-    <title>2024-12-23: 2.7km (1 activities)</title>
+  <rect x="1096" y="80" width="18" height="18" fill="red" class="heatmap-cell">
+    <title>2024-12-23: 10.3km (1 activities)</title>
   </rect>
   <rect x="1096" y="101" width="18" height="18" fill="red" class="heatmap-cell">
-    <title>2024-12-24: 8.5km (2 activities)</title>
+    <title>2024-12-24: 8.1km (2 activities)</title>
   </rect>
-  <rect x="1096" y="122" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-12-25: 5.5km (1 activities)</title>
+  <rect x="1096" y="122" width="18" height="18" fill="red" class="heatmap-cell">
+    <title>2024-12-25: 8.5km (2 activities)</title>
   </rect>
   <rect x="1096" y="143" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
     <title>2024-12-26: 5.5km (1 activities)</title>
   </rect>
-  <rect x="1096" y="164" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-12-27: 5.7km (1 activities)</title>
+  <rect x="1096" y="164" width="18" height="18" fill="#444444" class="heatmap-cell">
+    <title>2024-12-27: 0.0km (0 activities)</title>
   </rect>
-  <rect x="1096" y="185" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-12-28: 5.4km (1 activities)</title>
+  <rect x="1096" y="185" width="18" height="18" fill="red" class="heatmap-cell">
+    <title>2024-12-28: 11.0km (2 activities)</title>
   </rect>
   <rect x="1096" y="206" width="18" height="18" fill="red" class="heatmap-cell">
     <title>2024-12-29: 21.2km (1 activities)</title>
   </rect>
-  <rect x="1117" y="80" width="18" height="18" fill="#ffef00" class="heatmap-cell">
-    <title>2024-12-30: 3.5km (1 activities)</title>
+  <rect x="1117" y="80" width="18" height="18" fill="#444444" class="heatmap-cell">
+    <title>2024-12-30: 0.0km (0 activities)</title>
   </rect>
-  <rect x="1117" y="101" width="18" height="18" fill="#ffeb00" class="heatmap-cell">
-    <title>2024-12-31: 6.2km (1 activities)</title>
+  <rect x="1117" y="101" width="18" height="18" fill="red" class="heatmap-cell">
+    <title>2024-12-31: 9.7km (2 activities)</title>
   </rect>
 </svg>
