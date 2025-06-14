@@ -3,7 +3,7 @@
 <defs />
 <rect fill="#222222" height="120" width="120" x="0" y="0" />
 <text alignment-baseline="middle" fill="#FFFFFF" style="dominant-baseline: central; font-size:9.0px; font-family:Arial;" text-anchor="middle" x="60.0" y="60.0">2025</text>
-<text alignment-baseline="middle" fill="#FFFFFF" style="dominant-baseline: central; font-size:6.0px; font-family:Arial;" text-anchor="start" x="5" y="8">732 km</text>
+<text alignment-baseline="middle" fill="#FFFFFF" style="dominant-baseline: central; font-size:6.0px; font-family:Arial;" text-anchor="start" x="5" y="8">736 km</text>
 <line stroke="#FFFFFF" stroke-width="0.3" x1="60.0" x2="60.0" y1="5.0" y2="0.0"></line>
 <path d="M 60.0 4.0 a56.0,56.0 0 0,1 27.7, 7.3" fill="none" id="month1" stroke="none"></path>
 <text fill="#FFFFFF" style="font-size:5.625px; font-family:Arial;" text-anchor="middle"><textPath startOffset="14.5" xlink:href="#month1">January</textPath></text>
@@ -138,6 +138,7 @@
 <path d="M 65.1 72.5 l 4.4 10.8 a25.18560670164156,25.18560670164156 0 0,0 -0.4,0.2 l -4.2 -10.9" fill="#46fff6" stroke="none"></path>
 <path d="M 64.7 72.7 l 2.2 5.9 a19.770794550685395,19.770794550685395 0 0,0 -0.3,0.1 l -2.1 -5.9" fill="#46fff6" stroke="none"></path>
 <path d="M 64.4 72.7 l 1.1 3.0 a16.69222795735319,16.69222795735319 0 0,0 -0.3,0.1 l -1.0 -3.0" fill="#4bddff" stroke="none"></path>
+<path d="M 64.2 72.8 l 2.3 7.0 a20.918069893382974,20.918069893382974 0 0,0 -0.3,0.1 l -2.2 -7.1" fill="#46fff6" stroke="none"></path>
 <line stroke="#FFFFFF" stroke-width="0.3" x1="61.4" x2="61.5" y1="115.0" y2="120.0"></line>
 <path d="M 61.4 116.0 a56.0,56.0 0 0,1 -27.8, -6.6" fill="none" id="month7" stroke="none"></path>
 <text fill="#FFFFFF" style="font-size:5.625px; font-family:Arial;" text-anchor="middle"><textPath startOffset="14.5" xlink:href="#month7">July</textPath></text>
