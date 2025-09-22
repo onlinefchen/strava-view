@@ -206,6 +206,7 @@
 <path d="M 47.6 65.4 l -5.4 2.3 a19.365649856151634,19.365649856151634 0 0,0 -0.1,-0.3 l 5.4 -2.2" fill="#46fff6" stroke="none"></path>
 <path d="M 47.1 63.8 l -9.9 2.9 a23.836139786765948,23.836139786765948 0 0,0 -0.1,-0.4 l 10.0 -2.8" fill="#46fff6" stroke="none"></path>
 <path d="M 46.7 62.5 l -14.8 2.8 a28.575837705195468,28.575837705195468 0 0,0 -0.1,-0.5 l 14.9 -2.5" fill="#ffe200" stroke="none"></path>
+<path d="M 46.7 62.3 l -0.0 -0.0 a13.5,13.5 0 0,0 -0.0,-0.2 l -0.0 -0.0" fill="#4bddff" stroke="none"></path>
 <line stroke="#FFFFFF" stroke-width="0.3" x1="5.0" x2="0.0" y1="60.7" y2="60.8"></line>
 <path d="M 4.0 60.7 a56.0,56.0 0 0,1 6.9, -27.7" fill="none" id="month10" stroke="none"></path>
 <text fill="#FFFFFF" style="font-size:5.625px; font-family:Arial;" text-anchor="middle"><textPath startOffset="14.5" xlink:href="#month10">October</textPath></text>
