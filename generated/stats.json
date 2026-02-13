@@ -1,19 +1,19 @@
 {
   "2026": {
-    "total_activities": 18,
-    "total_distance": 81.2,
-    "avg_pace": "9'40\"",
-    "best_pace": "7'29\"",
-    "avg_heart_rate": 140,
+    "total_activities": 19,
+    "total_distance": 87.0,
+    "avg_pace": "9'30\"",
+    "best_pace": "7'16\"",
+    "avg_heart_rate": 141,
     "longest_distance": "6.2 km",
     "longest_date": "01/09",
     "longest_duration": "47:29",
     "longest_pace": "7'37\"",
     "longest_city": "Unknown",
-    "fastest_pace": "7'29\"",
-    "fastest_date": "02/05",
-    "fastest_distance": "5.9 km",
-    "fastest_duration": "43:58",
+    "fastest_pace": "7'16\"",
+    "fastest_date": "02/14",
+    "fastest_distance": "5.8 km",
+    "fastest_duration": "42:05",
     "fastest_city": "Unknown"
   },
   "2025": {
