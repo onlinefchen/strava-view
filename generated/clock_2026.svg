@@ -28,6 +28,7 @@
 <path d="M 68.9 49.9 l 8.3 -9.4 a25.99809380070839,25.99809380070839 0 0,0 0.3,0.3 l -8.4 9.2" fill="#ffe200" stroke="none"></path>
 <path d="M 69.1 50.0 l 5.1 -5.6 a21.087964336188996,21.087964336188996 0 0,0 0.3,0.2 l -5.2 5.5" fill="#46fff6" stroke="none"></path>
 <path d="M 69.3 50.2 l 14.1 -14.9 a33.953514036954964,33.953514036954964 0 0,0 0.4,0.4 l -14.3 14.6" fill="#3effb2" stroke="none"></path>
+<path d="M 69.4 50.4 l 0.0 0.0 a13.5,13.5 0 0,0 0.2,0.2 l 0.0 0.0" fill="#4bddff" stroke="none"></path>
 <line stroke="#FFFFFF" stroke-width="0.3" x1="106.7" x2="111.0" y1="31.0" y2="28.4"></line>
 <path d="M 107.6 30.5 a56.0,56.0 0 0,1 8.4, 27.3" fill="none" id="month3" stroke="none"></path>
 <text fill="#FFFFFF" style="font-size:5.625px; font-family:Arial;" text-anchor="middle"><textPath startOffset="14.5" xlink:href="#month3">March</textPath></text>

@@ -1,9 +1,9 @@
 {
-  "total_activities": 26,
+  "total_activities": 27,
   "total_distance": 86.98510000000002,
-  "total_time": 71309,
-  "avg_pace": 819.7840779627774,
+  "total_time": 74598,
+  "avg_pace": 857.5951513535075,
   "best_pace": 436.1795850679749,
-  "avg_heart_rate": 137.1576923076923,
-  "streak": 4
+  "avg_heart_rate": 136.85925925925923,
+  "streak": 0
 }
