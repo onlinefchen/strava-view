@@ -5,18 +5,19 @@
       "id": 149133850,
       "resource_state": 1
     },
-    "name": "Functional Strength Training",
-    "distance": 0.0,
-    "moving_time": 3289,
-    "elapsed_time": 3289,
-    "total_elevation_gain": 0,
-    "type": "WeightTraining",
-    "sport_type": "WeightTraining",
-    "workout_type": 30,
-    "id": 17394840716,
-    "start_date": "2026-02-14T12:53:04Z",
-    "start_date_local": "2026-02-14T20:53:04Z",
-    "timezone": "(GMT+08:00) Antarctica/Casey",
+    "name": "晨间跑步",
+    "distance": 7021.5,
+    "moving_time": 3032,
+    "elapsed_time": 3037,
+    "total_elevation_gain": 22.2,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": null,
+    "device_name": "Apple Watch Ultra 2",
+    "id": 17400451815,
+    "start_date": "2026-02-14T22:53:50Z",
+    "start_date_local": "2026-02-15T06:53:50Z",
+    "timezone": "(GMT+08:00) Asia/Shanghai",
     "utc_offset": 28800.0,
     "location_city": null,
     "location_state": null,
@@ -27,49 +28,59 @@
     "athlete_count": 1,
     "photo_count": 0,
     "map": {
-      "id": "a17394840716",
-      "polyline": "",
+      "id": "a17400451815",
+      "polyline": "ehyfCi`htTZSl@Y^WTGz@MfBcAPAZB~@?XChDiCv@q@nBu@xBaAb@OPKPQXGHGHK@MEKKMkC_BQKIACB@@l@`@RVNH`@LbCf@PJZ\\HDn@LVZD?TI`@HHHV\\b@NLJr@|@PNRH`ARpAf@TD\\@zAULBXNJ@x@AzB@XFNHHNFXDtAEd@WtA]~@m@`DAXJl@CT_@jBi@vBKx@c@bBG^KzDN~ANb@b@p@p@v@z@x@bAl@dA`@j@Zt@n@TXbBjB|@r@l@\\b@RlAb@\\Jj@Ft@Rv@Zl@NZLlElApCdAPDr@DfAZ@HCTDd@Wv@ANDtA?rBFj@?j@Gb@?TLrBZtB\\lAd@tAZlAXz@n@dCHr@`@v@d@~ALp@Tl@n@zBRb@ZdARjBB`AAvAIx@Wp@Er@QjAKxA?vALjB\\rB^nA|@rB\\z@dBxC^j@^b@f@r@nAzAr@t@NR|BnBrCpBlErCdBdAbAv@bAd@n@PRJzCfBn@\\XHjAr@pCxA|A`An@Z|A|@ZJV?t@b@bChA\\Ld@LPLLLRLhHlDv@d@H@sAk@sH_EeBw@",
       "resource_state": 3,
-      "summary_polyline": ""
+      "summary_polyline": "e`yfCodhtTXSPGzABb@ChDiCv@q@nBu@xBaAb@OPKPQXGHGHK@MEKMOsAu@u@g@QKIACB@@l@`@RVNH`@LbCf@PJZ\\HDn@LVZD?TI`@HHHV\\b@NLJr@|@PNRH`ARpAf@TD\\@zAULBXNJ@x@AzB@XFNHHNFXDtAEd@WtA]~@m@`DAXJl@CT_@jBi@vBKx@c@bBG^KzDN~ANb@b@p@p@v@z@x@bAl@dA`@j@Zt@n@TXbBjB|@r@l@\\b@RlAb@\\Jj@Ft@Rv@Zl@NZLlElApCdAPDr@DfAZ@HCTDd@Wv@ANDtA?rBFj@?j@Gb@?TLrBZtB\\lAd@tAZlAXz@n@dCHr@`@v@d@~ALp@Tl@n@zBRb@ZdARjBB`AAvAIx@Wp@Er@QjAKxA?vALjB\\rB^nA|@rB`@bA`C|D^b@f@r@nAzAr@t@NR|BnBrCpBlErCdBdAbAv@bAd@n@PRJzCfBn@\\XHjAr@pCxA|A`An@Z|A|@ZJV?t@b@bChA\\Ld@LPLLLRLhHlDv@d@H@sAk@eG_D"
     },
-    "trainer": true,
+    "trainer": false,
     "commute": false,
     "manual": false,
     "private": false,
     "visibility": "everyone",
     "flagged": false,
     "gear_id": null,
-    "start_latlng": [],
-    "end_latlng": [],
-    "average_speed": 0.0,
-    "max_speed": 0.0,
+    "start_latlng": [
+      22.252999,
+      113.587415
+    ],
+    "end_latlng": [
+      22.223608,
+      113.555539
+    ],
+    "average_speed": 2.316,
+    "max_speed": 3.52,
+    "average_watts": 204.9,
+    "max_watts": 260,
+    "weighted_average_watts": 206,
+    "device_watts": true,
+    "kilojoules": 621.1,
     "has_heartrate": true,
-    "average_heartrate": 129.1,
-    "max_heartrate": 160.0,
+    "average_heartrate": 148.8,
+    "max_heartrate": 162.0,
     "heartrate_opt_out": false,
     "display_hide_heartrate_option": true,
-    "elev_high": 0.0,
-    "elev_low": 0.0,
-    "upload_id": 18491714544,
-    "upload_id_str": "18491714544",
-    "external_id": "2026-02-14-205259-Functional Strength Training-Feng deApple?Watch.fit",
+    "elev_high": 1.2,
+    "elev_low": -5.8,
+    "upload_id": 18497356101,
+    "upload_id_str": "18497356101",
+    "external_id": "2AF3008B-2F89-48AE-8C99-BAC0E6944724.fit",
     "from_accepted_tag": false,
     "pr_count": 0,
     "total_photo_count": 0,
     "has_kudoed": false,
-    "suffer_score": 19.0,
+    "suffer_score": 63.0,
     "description": null,
-    "calories": 426.0,
+    "calories": 586.0,
     "perceived_exertion": null,
     "prefer_perceived_exertion": null,
-    "segment_efforts": [],
-    "laps": [
+    "segment_efforts": [
       {
-        "id": 62133679379,
+        "id": 3457911536231511294,
         "resource_state": 2,
-        "name": "Lap 1",
+        "name": "Lovers Rd reverse",
         "activity": {
-          "id": 17394840716,
+          "id": 17400451815,
           "visibility": "everyone",
           "resource_state": 1
         },
@@ -77,21 +88,370 @@
           "id": 149133850,
           "resource_state": 1
         },
-        "elapsed_time": 3289,
-        "moving_time": 3289,
-        "start_date": "2026-02-14T12:53:04Z",
-        "start_date_local": "2026-02-14T20:53:04Z",
-        "distance": 0.0,
-        "average_speed": 0.0,
-        "max_speed": 0.0,
+        "elapsed_time": 833,
+        "moving_time": 809,
+        "start_date": "2026-02-14T23:28:00Z",
+        "start_date_local": "2026-02-15T07:28:00Z",
+        "distance": 1867.8,
+        "start_index": 2048,
+        "end_index": 2876,
+        "device_watts": true,
+        "average_watts": 201.5,
+        "average_heartrate": 153.1,
+        "max_heartrate": 157.0,
+        "segment": {
+          "id": 28078463,
+          "resource_state": 2,
+          "name": "Lovers Rd reverse",
+          "activity_type": "Run",
+          "distance": 1867.8,
+          "average_grade": -0.3,
+          "maximum_grade": 13.1,
+          "elevation_high": -15.8,
+          "elevation_low": -27.4,
+          "start_latlng": [
+            22.23428,
+            113.564257
+          ],
+          "end_latlng": [
+            22.220749,
+            113.553873
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Zhuhai Shi",
+          "state": "Guangdong Sheng",
+          "country": "China",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "everyone",
+        "kom_rank": null,
+        "hidden": false
+      }
+    ],
+    "splits_metric": [
+      {
+        "distance": 1000.3,
+        "elapsed_time": 404,
+        "elevation_difference": -3.0,
+        "moving_time": 404,
+        "split": 1,
+        "average_speed": 2.48,
+        "average_grade_adjusted_speed": 2.49,
+        "average_heartrate": 138.22055137844612,
+        "pace_zone": 3
+      },
+      {
+        "distance": 1000.3,
+        "elapsed_time": 426,
+        "elevation_difference": 1.8,
+        "moving_time": 426,
+        "split": 2,
+        "average_speed": 2.35,
+        "average_grade_adjusted_speed": 2.37,
+        "average_heartrate": 146.8958837772397,
+        "pace_zone": 3
+      },
+      {
+        "distance": 1000.4,
+        "elapsed_time": 430,
+        "elevation_difference": -0.2,
+        "moving_time": 430,
+        "split": 3,
+        "average_speed": 2.33,
+        "average_grade_adjusted_speed": 2.33,
+        "average_heartrate": 147.19239904988123,
+        "pace_zone": 3
+      },
+      {
+        "distance": 1001.8,
+        "elapsed_time": 439,
+        "elevation_difference": -1.2,
+        "moving_time": 439,
+        "split": 4,
+        "average_speed": 2.28,
+        "average_grade_adjusted_speed": 2.28,
+        "average_heartrate": 150.9693396226415,
+        "pace_zone": 2
+      },
+      {
+        "distance": 997.6,
+        "elapsed_time": 430,
+        "elevation_difference": -0.4,
+        "moving_time": 430,
+        "split": 5,
+        "average_speed": 2.32,
+        "average_grade_adjusted_speed": 2.32,
+        "average_heartrate": 151.85915492957747,
+        "pace_zone": 3
+      },
+      {
+        "distance": 1001.3,
+        "elapsed_time": 442,
+        "elevation_difference": -1.0,
+        "moving_time": 442,
+        "split": 6,
+        "average_speed": 2.27,
+        "average_grade_adjusted_speed": 2.27,
+        "average_heartrate": 152.99067599067598,
+        "pace_zone": 2
+      },
+      {
+        "distance": 998.8,
+        "elapsed_time": 452,
+        "elevation_difference": 1.0,
+        "moving_time": 452,
+        "split": 7,
+        "average_speed": 2.21,
+        "average_grade_adjusted_speed": 2.22,
+        "average_heartrate": 152.72018348623854,
+        "pace_zone": 2
+      },
+      {
+        "distance": 20.9,
+        "elapsed_time": 14,
+        "elevation_difference": -0.8,
+        "moving_time": 9,
+        "split": 8,
+        "average_speed": 2.32,
+        "average_grade_adjusted_speed": 2.19,
+        "average_heartrate": 150.0,
+        "pace_zone": 2
+      }
+    ],
+    "splits_standard": [
+      {
+        "distance": 1609.6,
+        "elapsed_time": 669,
+        "elevation_difference": -3.2,
+        "moving_time": 669,
+        "split": 1,
+        "average_speed": 2.41,
+        "average_grade_adjusted_speed": 2.42,
+        "average_heartrate": 141.38379204892968,
+        "pace_zone": 3
+      },
+      {
+        "distance": 1609.6,
+        "elapsed_time": 685,
+        "elevation_difference": 1.0,
+        "moving_time": 685,
+        "split": 2,
+        "average_speed": 2.35,
+        "average_grade_adjusted_speed": 2.36,
+        "average_heartrate": 147.7369985141159,
+        "pace_zone": 3
+      },
+      {
+        "distance": 1609.0,
+        "elapsed_time": 701,
+        "elevation_difference": -0.2,
+        "moving_time": 701,
+        "split": 3,
+        "average_speed": 2.3,
+        "average_grade_adjusted_speed": 2.3,
+        "average_heartrate": 151.36217008797655,
+        "pace_zone": 2
+      },
+      {
+        "distance": 1612.5,
+        "elapsed_time": 712,
+        "elevation_difference": -1.0,
+        "moving_time": 712,
+        "split": 4,
+        "average_speed": 2.26,
+        "average_grade_adjusted_speed": 2.27,
+        "average_heartrate": 153.3953488372093,
+        "pace_zone": 2
+      },
+      {
+        "distance": 580.7,
+        "elapsed_time": 270,
+        "elevation_difference": -0.4,
+        "moving_time": 265,
+        "split": 5,
+        "average_speed": 2.19,
+        "average_grade_adjusted_speed": 2.2,
+        "average_heartrate": 151.5423076923077,
+        "pace_zone": 2
+      }
+    ],
+    "laps": [
+      {
+        "id": 62155257390,
+        "resource_state": 2,
+        "name": "Lap 1",
+        "activity": {
+          "id": 17400451815,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 149133850,
+          "resource_state": 1
+        },
+        "elapsed_time": 3037,
+        "moving_time": 3037,
+        "start_date": "2026-02-14T22:53:50Z",
+        "start_date_local": "2026-02-15T06:53:50Z",
+        "distance": 7021.41,
+        "average_speed": 2.31,
+        "max_speed": 3.52,
         "lap_index": 1,
         "split": 1,
         "start_index": 0,
-        "end_index": 3210,
-        "total_elevation_gain": 0,
-        "device_watts": false,
-        "average_heartrate": 129.1,
-        "max_heartrate": 160.0
+        "end_index": 2914,
+        "total_elevation_gain": 22.2,
+        "device_watts": true,
+        "average_watts": 204.9,
+        "average_heartrate": 148.8,
+        "max_heartrate": 162.0,
+        "pace_zone": 2
+      }
+    ],
+    "best_efforts": [
+      {
+        "id": 73182749447,
+        "resource_state": 2,
+        "name": "400m",
+        "activity": {
+          "id": 17400451815,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 149133850,
+          "resource_state": 1
+        },
+        "elapsed_time": 145,
+        "moving_time": 145,
+        "start_date": "2026-02-14T22:53:50Z",
+        "start_date_local": "2026-02-15T06:53:50Z",
+        "distance": 400,
+        "pr_rank": null,
+        "achievements": [],
+        "start_index": 124,
+        "end_index": 268
+      },
+      {
+        "id": 73182749448,
+        "resource_state": 2,
+        "name": "1/2 mile",
+        "activity": {
+          "id": 17400451815,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 149133850,
+          "resource_state": 1
+        },
+        "elapsed_time": 314,
+        "moving_time": 314,
+        "start_date": "2026-02-14T22:53:50Z",
+        "start_date_local": "2026-02-15T06:53:50Z",
+        "distance": 805,
+        "pr_rank": null,
+        "achievements": [],
+        "start_index": 28,
+        "end_index": 341
+      },
+      {
+        "id": 73182749449,
+        "resource_state": 2,
+        "name": "1K",
+        "activity": {
+          "id": 17400451815,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 149133850,
+          "resource_state": 1
+        },
+        "elapsed_time": 401,
+        "moving_time": 401,
+        "start_date": "2026-02-14T22:53:50Z",
+        "start_date_local": "2026-02-15T06:53:50Z",
+        "distance": 1000,
+        "pr_rank": null,
+        "achievements": [],
+        "start_index": 9,
+        "end_index": 409
+      },
+      {
+        "id": 73182749444,
+        "resource_state": 2,
+        "name": "1 mile",
+        "activity": {
+          "id": 17400451815,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 149133850,
+          "resource_state": 1
+        },
+        "elapsed_time": 661,
+        "moving_time": 661,
+        "start_date": "2026-02-14T22:53:50Z",
+        "start_date_local": "2026-02-15T06:53:50Z",
+        "distance": 1609,
+        "pr_rank": null,
+        "achievements": [],
+        "start_index": 72,
+        "end_index": 732
+      },
+      {
+        "id": 73182749445,
+        "resource_state": 2,
+        "name": "2 mile",
+        "activity": {
+          "id": 17400451815,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 149133850,
+          "resource_state": 1
+        },
+        "elapsed_time": 1350,
+        "moving_time": 1350,
+        "start_date": "2026-02-14T22:53:50Z",
+        "start_date_local": "2026-02-15T06:53:50Z",
+        "distance": 3219,
+        "pr_rank": null,
+        "achievements": [],
+        "start_index": 26,
+        "end_index": 1374
+      },
+      {
+        "id": 73182749446,
+        "resource_state": 2,
+        "name": "5K",
+        "activity": {
+          "id": 17400451815,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 149133850,
+          "resource_state": 1
+        },
+        "elapsed_time": 2124,
+        "moving_time": 2124,
+        "start_date": "2026-02-14T22:53:50Z",
+        "start_date_local": "2026-02-15T06:53:50Z",
+        "distance": 5000,
+        "pr_rank": null,
+        "achievements": [],
+        "start_index": 49,
+        "end_index": 2171
       }
     ],
     "photos": {
@@ -121,10 +481,91 @@
       }
     ],
     "hide_from_home": false,
-    "embed_token": "667fb65cbde74c8040bc2adc7dc570a2c945f3df",
+    "embed_token": "c71554dc7aeb0a5c75f5385a68e0b6ade9f71928",
+    "similar_activities": {
+      "effort_count": 1,
+      "average_speed": 2.315798153034301,
+      "min_average_speed": 2.315798153034301,
+      "mid_average_speed": 2.315798153034301,
+      "max_average_speed": 2.315798153034301,
+      "pr_rank": null,
+      "frequency_milestone": null,
+      "trend": {
+        "speeds": [
+          2.315798153034301
+        ],
+        "current_activity_index": 0,
+        "min_speed": 2.315798153034301,
+        "mid_speed": 2.315798153034301,
+        "max_speed": 2.315798153034301,
+        "direction": 0
+      },
+      "resource_state": 2
+    },
     "available_zones": [
-      "heartrate"
+      "heartrate",
+      "pace",
+      "power"
     ]
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "id": 149133850,
+      "resource_state": 1
+    },
+    "name": "Functional Strength Training",
+    "distance": 0.0,
+    "moving_time": 3289,
+    "elapsed_time": 3289,
+    "total_elevation_gain": 0,
+    "type": "WeightTraining",
+    "sport_type": "WeightTraining",
+    "workout_type": 30,
+    "id": 17394840716,
+    "start_date": "2026-02-14T12:53:04Z",
+    "start_date_local": "2026-02-14T20:53:04Z",
+    "timezone": "(GMT+08:00) Antarctica/Casey",
+    "utc_offset": 28800.0,
+    "location_city": null,
+    "location_state": null,
+    "location_country": null,
+    "achievement_count": 0,
+    "kudos_count": 0,
+    "comment_count": 0,
+    "athlete_count": 1,
+    "photo_count": 0,
+    "map": {
+      "id": "a17394840716",
+      "summary_polyline": "",
+      "resource_state": 2
+    },
+    "trainer": true,
+    "commute": false,
+    "manual": false,
+    "private": false,
+    "visibility": "everyone",
+    "flagged": false,
+    "gear_id": null,
+    "start_latlng": [],
+    "end_latlng": [],
+    "average_speed": 0.0,
+    "max_speed": 0.0,
+    "has_heartrate": true,
+    "average_heartrate": 129.1,
+    "max_heartrate": 160.0,
+    "heartrate_opt_out": false,
+    "display_hide_heartrate_option": true,
+    "elev_high": 0.0,
+    "elev_low": 0.0,
+    "upload_id": 18491714544,
+    "upload_id_str": "18491714544",
+    "external_id": "2026-02-14-205259-Functional Strength Training-Feng deApple?Watch.fit",
+    "from_accepted_tag": false,
+    "pr_count": 0,
+    "total_photo_count": 0,
+    "has_kudoed": false,
+    "suffer_score": 19.0
   },
   {
     "resource_state": 2,
