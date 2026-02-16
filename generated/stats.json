@@ -1,19 +1,19 @@
 {
   "2026": {
-    "total_activities": 20,
-    "total_distance": 94.0,
-    "avg_pace": "9'20\"",
-    "best_pace": "7'11\"",
-    "avg_heart_rate": 141,
+    "total_activities": 22,
+    "total_distance": 99.5,
+    "avg_pace": "9'19\"",
+    "best_pace": "4'23\"",
+    "avg_heart_rate": 136,
     "longest_distance": "7.0 km",
     "longest_date": "02/15",
     "longest_duration": "50:32",
     "longest_pace": "7'11\"",
     "longest_city": "Shanghai",
-    "fastest_pace": "7'11\"",
-    "fastest_date": "02/15",
-    "fastest_distance": "7.0 km",
-    "fastest_duration": "50:32",
+    "fastest_pace": "4'23\"",
+    "fastest_date": "02/17",
+    "fastest_distance": "3.5 km",
+    "fastest_duration": "15:24",
     "fastest_city": "Shanghai"
   },
   "2025": {
