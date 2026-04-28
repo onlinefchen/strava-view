@@ -1,0 +1,31 @@
+// Configuration file template
+// This file is used to generate config.js with actual values
+const CONFIG = {
+    // Mapbox access token - will be replaced with actual value
+    MAPBOX_ACCESS_TOKEN: '${MAPBOX_ACCESS_TOKEN}',
+    
+    // Personal signature - customize your personal motto
+    SIGNATURE: {
+        line1: '敢问路在何方，路在脚下',
+        line2: ''
+    },
+    
+    // Navigation links - customize these URLs to your own links
+    NAVIGATION_LINKS: {
+        summary: {
+            title: 'Summary',
+            url: 'summary.html',  // Link to summary page
+            target: '_self'  // '_self' for same tab, '_blank' for new tab
+        },
+        blog: {
+            title: 'Blog', 
+            url: 'https://your-blog.com',  // Replace with your blog URL
+            target: '_blank'
+        },
+        about: {
+            title: 'About',
+            url: 'https://your-about-page.com',  // Replace with your about page URL
+            target: '_blank'
+        }
+    }
+};
