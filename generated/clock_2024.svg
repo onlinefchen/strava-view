@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg baseProfile="full" height="120mm" version="1.1" viewBox="0,0,120,120" width="120mm" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs />
+<rect fill="#222222" height="120" width="120" x="0" y="0" />
+<text alignment-baseline="middle" fill="#FFFFFF" style="dominant-baseline: central; font-size:9.0px; font-family:Arial;" text-anchor="middle" x="60.0" y="60.0">2024</text>
+<text alignment-baseline="middle" fill="#FFFFFF" style="dominant-baseline: central; font-size:6.0px; font-family:Arial;" text-anchor="start" x="5" y="8">419 km</text>
+<line stroke="#FFFFFF" stroke-width="0.3" x1="60.0" x2="60.0" y1="5.0" y2="0.0"></line>
+<path d="M 60.0 4.0 a56.0,56.0 0 0,1 27.6, 7.3" fill="none" id="month1" stroke="none"></path>
+<text fill="#FFFFFF" style="font-size:5.625px; font-family:Arial;" text-anchor="middle"><textPath startOffset="14.4" xlink:href="#month1">January</textPath></text>
+<line stroke="#FFFFFF" stroke-width="0.3" x1="87.9" x2="90.4" y1="12.6" y2="8.3"></line>
+<path d="M 88.4 11.7 a56.0,56.0 0 0,1 19.1, 18.6" fill="none" id="month2" stroke="none"></path>
+<text fill="#FFFFFF" style="font-size:5.625px; font-family:Arial;" text-anchor="middle"><textPath startOffset="13.5" xlink:href="#month2">February</textPath></text>
+<line stroke="#FFFFFF" stroke-width="0.3" x1="107.2" x2="111.4" y1="31.7" y2="29.1"></line>
+<path d="M 108.0 31.2 a56.0,56.0 0 0,1 8.0, 27.4" fill="none" id="month3" stroke="none"></path>
+<text fill="#FFFFFF" style="font-size:5.625px; font-family:Arial;" text-anchor="middle"><textPath startOffset="14.4" xlink:href="#month3">March</textPath></text>
+<line stroke="#FFFFFF" stroke-width="0.3" x1="115.0" x2="120.0" y1="59.5" y2="59.5"></line>
+<path d="M 116.0 59.5 a56.0,56.0 0 0,1 -6.6, 26.8" fill="none" id="month4" stroke="none"></path>
+<text fill="#FFFFFF" style="font-size:5.625px; font-family:Arial;" text-anchor="middle"><textPath startOffset="13.9" xlink:href="#month4">April</textPath></text>
+<line stroke="#FFFFFF" stroke-width="0.3" x1="108.1" x2="112.5" y1="86.7" y2="89.1"></line>
+<path d="M 109.0 87.2 a56.0,56.0 0 0,1 -19.7, 20.6" fill="none" id="month5" stroke="none"></path>
+<text fill="#FFFFFF" style="font-size:5.625px; font-family:Arial;" text-anchor="middle"><textPath startOffset="14.4" xlink:href="#month5">May</textPath></text>
+<line stroke="#FFFFFF" stroke-width="0.3" x1="87.9" x2="90.4" y1="107.4" y2="111.7"></line>
+<path d="M 88.4 108.3 a56.0,56.0 0 0,1 -26.5, 7.7" fill="none" id="month6" stroke="none"></path>
+<text fill="#FFFFFF" style="font-size:5.625px; font-family:Arial;" text-anchor="middle"><textPath startOffset="13.9" xlink:href="#month6">June</textPath></text>
+<line stroke="#FFFFFF" stroke-width="0.3" x1="60.9" x2="61.0" y1="115.0" y2="120.0"></line>
+<path d="M 61.0 116.0 a56.0,56.0 0 0,1 -27.7, -6.8" fill="none" id="month7" stroke="none"></path>
+<text fill="#FFFFFF" style="font-size:5.625px; font-family:Arial;" text-anchor="middle"><textPath startOffset="14.4" xlink:href="#month7">July</textPath></text>
+<line stroke="#FFFFFF" stroke-width="0.3" x1="32.9" x2="30.4" y1="107.9" y2="112.2"></line>
+<path d="M 32.4 108.7 a56.0,56.0 0 0,1 -20.4, -19.9" fill="none" id="month8" stroke="none"></path>
+<text fill="#FFFFFF" style="font-size:5.625px; font-family:Arial;" text-anchor="middle"><textPath startOffset="14.4" xlink:href="#month8">August</textPath></text>
+<line stroke="#FFFFFF" stroke-width="0.3" x1="12.4" x2="8.0" y1="87.5" y2="90.0"></line>
+<path d="M 11.5 88.0 a56.0,56.0 0 0,1 -7.5, -26.6" fill="none" id="month9" stroke="none"></path>
+<text fill="#FFFFFF" style="font-size:5.625px; font-family:Arial;" text-anchor="middle"><textPath startOffset="13.9" xlink:href="#month9">September</textPath></text>
+<line stroke="#FFFFFF" stroke-width="0.3" x1="5.0" x2="0.0" y1="60.5" y2="60.5"></line>
+<path d="M 4.0 60.5 a56.0,56.0 0 0,1 7.0, -27.6" fill="none" id="month10" stroke="none"></path>
+<text fill="#FFFFFF" style="font-size:5.625px; font-family:Arial;" text-anchor="middle"><textPath startOffset="14.4" xlink:href="#month10">October</textPath></text>
+<path d="M 47.0 56.2 l -10.3 -3.0 a24.21386967858965,24.21386967858965 0 0,0 0.1,-0.4 l 10.2 3.2" fill="#46fff6" stroke="none"></path>
+<path d="M 47.1 56.0 l -12.6 -3.9 a26.644726772858682,26.644726772858682 0 0,0 0.1,-0.4 l 12.5 4.1" fill="#ffe200" stroke="none"></path>
+<path d="M 47.2 55.8 l -11.4 -3.8 a25.5507836857321,25.5507836857321 0 0,0 0.1,-0.4 l 11.4 4.0" fill="#46fff6" stroke="none"></path>
+<path d="M 47.2 55.6 l -0.0 0.0 a13.5,13.5 0 0,0 0.1,-0.2 l -0.0 0.0" fill="#4bddff" stroke="none"></path>
+<path d="M 47.3 55.3 l -6.9 -2.5 a20.80194575137464,20.80194575137464 0 0,0 0.1,-0.3 l 6.8 2.6" fill="#46fff6" stroke="none"></path>
+<path d="M 47.4 55.1 l -0.0 0.0 a13.5,13.5 0 0,0 0.1,-0.2 l -0.0 0.0" fill="#4bddff" stroke="none"></path>
+<path d="M 47.5 54.9 l -5.6 -2.3 a19.514391190975566,19.514391190975566 0 0,0 0.1,-0.3 l 5.5 2.4" fill="#46fff6" stroke="none"></path>
+<path d="M 47.6 54.7 l -9.2 -3.9 a23.5534479337906,23.5534479337906 0 0,0 0.2,-0.4 l 9.2 4.1" fill="#46fff6" stroke="none"></path>
+<path d="M 47.7 54.5 l -0.0 0.0 a13.5,13.5 0 0,0 0.1,-0.2 l -0.0 0.0" fill="#4bddff" stroke="none"></path>
+<path d="M 47.8 54.3 l -2.1 -1.0 a15.821998469474519,15.821998469474519 0 0,0 0.1,-0.2 l 2.1 1.0" fill="#4bddff" stroke="none"></path>
+<path d="M 47.9 54.1 l -3.0 -1.5 a16.8801655234964,16.8801655234964 0 0,0 0.1,-0.3 l 3.0 1.5" fill="#4bddff" stroke="none"></path>
+<path d="M 48.0 53.9 l -17.8 -9.1 a33.465130944957764,33.465130944957764 0 0,0 0.3,-0.5 l 17.6 9.4" fill="#ffe200" stroke="none"></path>
+<path d="M 48.1 53.7 l -3.6 -1.9 a17.575024091604785,17.575024091604785 0 0,0 0.1,-0.3 l 3.6 2.0" fill="#46fff6" stroke="none"></path>
+<path d="M 48.2 53.5 l -8.7 -4.8 a23.498540332180717,23.498540332180717 0 0,0 0.2,-0.4 l 8.7 5.0" fill="#46fff6" stroke="none"></path>
+<line stroke="#FFFFFF" stroke-width="0.3" x1="12.4" x2="8.0" y1="32.5" y2="30.0"></line>
+<path d="M 11.5 32.0 a56.0,56.0 0 0,1 19.3, -19.8" fill="none" id="month11" stroke="none"></path>
+<text fill="#FFFFFF" style="font-size:5.625px; font-family:Arial;" text-anchor="middle"><textPath startOffset="13.9" xlink:href="#month11">November</textPath></text>
+<path d="M 48.3 53.2 l -3.9 -2.3 a18.013328326058613,18.013328326058613 0 0,0 0.2,-0.3 l 3.9 2.3" fill="#46fff6" stroke="none"></path>
+<path d="M 48.4 53.1 l -4.8 -2.9 a19.124489824839863,19.124489824839863 0 0,0 0.2,-0.3 l 4.8 3.0" fill="#46fff6" stroke="none"></path>
+<path d="M 48.7 52.7 l -16.2 -10.5 a32.86038206450881,32.86038206450881 0 0,0 0.3,-0.5 l 16.1 10.8" fill="#ffe200" stroke="none"></path>
+<path d="M 48.8 52.5 l -12.5 -8.4 a28.58925939572587,28.58925939572587 0 0,0 0.3,-0.4 l 12.4 8.6" fill="#ffe200" stroke="none"></path>
+<path d="M 48.9 52.3 l -17.8 -12.4 a35.17778895754209,35.17778895754209 0 0,0 0.3,-0.5 l 17.6 12.7" fill="#3effb2" stroke="none"></path>
+<path d="M 49.1 52.1 l -7.0 -5.0 a22.10691003911343,22.10691003911343 0 0,0 0.2,-0.3 l 6.9 5.2" fill="#46fff6" stroke="none"></path>
+<path d="M 49.2 51.9 l -14.5 -10.8 a31.570149084519016,31.570149084519016 0 0,0 0.3,-0.4 l 14.3 11.1" fill="#ffe200" stroke="none"></path>
+<path d="M 49.3 51.7 l -30.3 -23.5 a51.85152485686752,51.85152485686752 0 0,0 0.6,-0.7 l 29.9 24.1" fill="#ffda00" stroke="none"></path>
+<path d="M 49.5 51.5 l -0.0 0.0 a13.5,13.5 0 0,0 0.1,-0.2 l -0.0 0.0" fill="#4bddff" stroke="none"></path>
+<path d="M 49.6 51.4 l -7.8 -6.5 a23.65101893316705,23.65101893316705 0 0,0 0.3,-0.3 l 7.7 6.6" fill="#46fff6" stroke="none"></path>
+<path d="M 49.8 51.2 l -9.9 -8.6 a26.604359163312736,26.604359163312736 0 0,0 0.3,-0.3 l 9.8 8.7" fill="#ffe200" stroke="none"></path>
+<path d="M 49.9 51.0 l -3.1 -2.7 a17.598555920866165,17.598555920866165 0 0,0 0.2,-0.2 l 3.0 2.8" fill="#46fff6" stroke="none"></path>
+<path d="M 50.1 50.8 l -12.7 -11.8 a30.83167054021881,30.83167054021881 0 0,0 0.4,-0.4 l 12.5 12.0" fill="#ffe200" stroke="none"></path>
+<path d="M 50.3 50.7 l -4.1 -4.0 a19.24004449861119,19.24004449861119 0 0,0 0.2,-0.2 l 4.1 4.0" fill="#46fff6" stroke="none"></path>
+<path d="M 50.4 50.5 l -7.7 -7.6 a24.285995691854204,24.285995691854204 0 0,0 0.3,-0.3 l 7.5 7.7" fill="#46fff6" stroke="none"></path>
+<path d="M 50.6 50.3 l -22.9 -23.5 a46.30796156680461,46.30796156680461 0 0,0 0.6,-0.5 l 22.5 23.9" fill="#72ff27" stroke="none"></path>
+<path d="M 50.7 50.2 l -0.0 0.0 a13.5,13.5 0 0,0 0.2,-0.2 l -0.0 0.0" fill="#4bddff" stroke="none"></path>
+<path d="M 50.9 50.0 l -3.5 -3.8 a18.645244033784934,18.645244033784934 0 0,0 0.2,-0.2 l 3.4 3.9" fill="#46fff6" stroke="none"></path>
+<path d="M 51.1 49.9 l -0.0 0.0 a13.5,13.5 0 0,0 0.2,-0.2 l -0.0 0.0" fill="#4bddff" stroke="none"></path>
+<path d="M 51.3 49.7 l -0.0 0.0 a13.5,13.5 0 0,0 0.2,-0.1 l -0.0 0.0" fill="#4bddff" stroke="none"></path>
+<path d="M 51.4 49.6 l -6.3 -7.7 a23.459703248115186,23.459703248115186 0 0,0 0.3,-0.3 l 6.2 7.8" fill="#46fff6" stroke="none"></path>
+<path d="M 51.6 49.4 l -13.5 -17.0 a35.233079190522076,35.233079190522076 0 0,0 0.5,-0.4 l 13.2 17.3" fill="#3effb2" stroke="none"></path>
+<path d="M 51.8 49.3 l -24.5 -32.0 a53.80868431494814,53.80868431494814 0 0,0 0.7,-0.6 l 23.9 32.4" fill="#ffda00" stroke="none"></path>
+<path d="M 52.0 49.1 l -0.0 0.0 a13.5,13.5 0 0,0 0.2,-0.1 l -0.0 0.0" fill="#4bddff" stroke="none"></path>
+<path d="M 52.2 49.0 l -5.8 -8.1 a23.461233773595602,23.461233773595602 0 0,0 0.3,-0.2 l 5.6 8.2" fill="#46fff6" stroke="none"></path>
+<path d="M 52.4 48.9 l -3.0 -4.3 a18.72693583130208,18.72693583130208 0 0,0 0.3,-0.2 l 2.9 4.4" fill="#46fff6" stroke="none"></path>
+<path d="M 52.6 48.7 l -7.5 -11.3 a27.057777336885664,27.057777336885664 0 0,0 0.4,-0.3 l 7.3 11.4" fill="#ffe200" stroke="none"></path>
+<path d="M 52.8 48.6 l -5.6 -8.8 a23.931487727453092,23.931487727453092 0 0,0 0.3,-0.2 l 5.4 8.9" fill="#46fff6" stroke="none"></path>
+<path d="M 53.0 48.5 l -6.1 -10.0 a25.213111501615558,25.213111501615558 0 0,0 0.4,-0.2 l 5.9 10.1" fill="#46fff6" stroke="none"></path>
+<line stroke="#FFFFFF" stroke-width="0.3" x1="32.1" x2="29.6" y1="12.6" y2="8.3"></line>
+<path d="M 31.6 11.7 a56.0,56.0 0 0,1 27.5, -7.7" fill="none" id="month12" stroke="none"></path>
+<text fill="#FFFFFF" style="font-size:5.625px; font-family:Arial;" text-anchor="middle"><textPath startOffset="14.4" xlink:href="#month12">December</textPath></text>
+<path d="M 53.1 48.4 l -11.0 -18.7 a35.178554220282294,35.178554220282294 0 0,0 0.5,-0.3 l 10.7 18.9" fill="#3effb2" stroke="none"></path>
+<path d="M 53.4 48.3 l -8.3 -14.7 a30.408288929199028,30.408288929199028 0 0,0 0.5,-0.3 l 8.1 14.9" fill="#ffe200" stroke="none"></path>
+<path d="M 53.6 48.1 l -4.7 -8.7 a23.420483532679555,23.420483532679555 0 0,0 0.4,-0.2 l 4.6 8.8" fill="#46fff6" stroke="none"></path>
+<path d="M 53.8 48.0 l -4.7 -8.9 a23.563205033728245,23.563205033728245 0 0,0 0.4,-0.2 l 4.5 9.0" fill="#46fff6" stroke="none"></path>
+<path d="M 54.0 47.9 l -0.0 0.0 a13.5,13.5 0 0,0 0.2,-0.1 l -0.0 0.0" fill="#4bddff" stroke="none"></path>
+<path d="M 54.2 47.8 l -5.2 -10.9 a25.623866277421914,25.623866277421914 0 0,0 0.4,-0.2 l 5.0 11.0" fill="#46fff6" stroke="none"></path>
+<path d="M 54.4 47.7 l -4.6 -10.1 a24.60434499178051,24.60434499178051 0 0,0 0.4,-0.2 l 4.4 10.2" fill="#46fff6" stroke="none"></path>
+<path d="M 54.8 47.5 l -8.2 -19.8 a34.92831330423445,34.92831330423445 0 0,0 0.6,-0.2 l 7.9 19.9" fill="#3effb2" stroke="none"></path>
+<path d="M 55.0 47.5 l -3.9 -9.9 a24.118403151748765,24.118403151748765 0 0,0 0.4,-0.1 l 3.7 9.9" fill="#46fff6" stroke="none"></path>
+<path d="M 55.2 47.4 l -3.5 -9.4 a23.532403208434896,23.532403208434896 0 0,0 0.4,-0.1 l 3.4 9.4" fill="#46fff6" stroke="none"></path>
+<path d="M 55.9 47.1 l -6.3 -19.6 a34.10603848988153,34.10603848988153 0 0,0 0.6,-0.2 l 5.9 19.7" fill="#3effb2" stroke="none"></path>
+<path d="M 56.1 47.1 l -7.6 -25.2 a39.803610906411194,39.803610906411194 0 0,0 0.7,-0.2 l 7.1 25.3" fill="#3effb2" stroke="none"></path>
+<path d="M 56.6 46.9 l -2.5 -9.6 a23.46850376962757,23.46850376962757 0 0,0 0.4,-0.1 l 2.4 9.7" fill="#46fff6" stroke="none"></path>
+<path d="M 56.8 46.9 l -0.0 -0.1 a13.561794966271753,13.561794966271753 0 0,0 0.2,-0.1 l 0.0 0.1" fill="#4bddff" stroke="none"></path>
+<path d="M 57.0 46.8 l -2.2 -9.8 a23.50274927725186,23.50274927725186 0 0,0 0.4,-0.1 l 2.0 9.8" fill="#46fff6" stroke="none"></path>
+<path d="M 57.5 46.7 l -3.0 -15.6 a29.36217476333541,29.36217476333541 0 0,0 0.5,-0.1 l 2.7 15.6" fill="#ffe200" stroke="none"></path>
+<path d="M 57.9 46.7 l -3.0 -19.5 a33.24473527577801,33.24473527577801 0 0,0 0.6,-0.1 l 2.7 19.6" fill="#ffe200" stroke="none"></path>
+<path d="M 58.2 46.6 l -2.1 -15.4 a29.057026245677683,29.057026245677683 0 0,0 0.5,-0.1 l 1.9 15.4" fill="#ffe200" stroke="none"></path>
+<path d="M 58.4 46.6 l -2.0 -16.2 a29.768720594070633,29.768720594070633 0 0,0 0.5,-0.1 l 1.7 16.2" fill="#ffe200" stroke="none"></path>
+<path d="M 58.6 46.6 l -1.1 -10.4 a23.954828241029418,23.954828241029418 0 0,0 0.4,-0.0 l 0.9 10.4" fill="#46fff6" stroke="none"></path>
+<path d="M 59.1 46.5 l -1.4 -21.1 a34.62412136500198,34.62412136500198 0 0,0 0.6,-0.0 l 1.1 21.1" fill="#3effb2" stroke="none"></path>
+<path d="M 59.3 46.5 l -2.1 -40.4 a54.0,54.0 0 0,0 0.9,-0.0 l 1.4 40.5" fill="#ffda00" stroke="none"></path>
+<path d="M 59.8 46.5 l -0.3 -18.6 a32.146009296525136,32.146009296525136 0 0,0 0.6,-0.0 l 0.0 18.6" fill="#ffe200" stroke="none"></path>
+</svg>

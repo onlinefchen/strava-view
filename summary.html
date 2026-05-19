@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Summary - Feng's running page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="config.js"></script>
+    <style>
+        .summary-container {
+            min-height: 100vh;
+            background: #0d1117;
+            color: #c9d1d9;
+        }
+
+        .summary-header {
+            background: #161b22;
+            padding: 15px 20px;
+            border-bottom: 1px solid #30363d;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .summary-nav {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: #c9d1d9;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            transition: background-color 0.2s;
+        }
+
+        .nav-link:hover {
+            background-color: #21262d;
+        }
+
+        .nav-link.active {
+            background-color: #238636;
+        }
+
+        .summary-content {
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .year-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 40px;
+            width: 100%;
+            max-width: 1680px;
+            background: #161b22;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .year-row img:first-child {
+            flex: 3;
+            width: 1280px;
+            height: 320px;
+            object-fit: contain;
+            object-position: left center;
+        }
+
+        .year-row img:last-child {
+            flex: 1;
+            height: 300px;
+            width: auto;
+            max-width: none;
+            object-fit: contain;
+        }
+
+        @media (max-width: 1600px) {
+            .year-row {
+                max-width: 100%;
+            }
+            
+            .year-row img:first-child {
+                width: 1024px;
+                height: 256px;
+            }
+            
+            .year-row img:last-child {
+                height: 250px;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            .year-row {
+                flex-direction: column;
+                gap: 20px;
+                align-items: center;
+            }
+            
+            .year-row img:first-child {
+                width: 768px;
+                height: 192px;
+            }
+            
+            .year-row img:last-child {
+                height: 200px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .summary-content {
+                padding: 20px 10px;
+                gap: 30px;
+            }
+            
+            .year-row {
+                gap: 15px;
+                padding: 15px;
+            }
+            
+            .year-row img:first-child {
+                width: 640px;
+                height: 160px;
+            }
+            
+            .year-row img:last-child {
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="summary-container">
+        <div class="summary-header">
+            <div class="summary-nav">
+                <a href="index.html" class="nav-link">← Back to Main</a>
+                <a href="summary.html" class="nav-link active">Summary</a>
+            </div>
+        </div>
+
+        <div class="summary-content">
+            <!-- 2025 Row -->
+            <div class="year-row">
+                <img src="generated/nike_heatmap_2025.svg" alt="2025 Activity Heatmap">
+                <img src="generated/clock_2025.svg" alt="2025 Activity Clock">
+            </div>
+
+            <!-- 2024 Row -->
+            <div class="year-row">
+                <img src="generated/nike_heatmap_2024.svg" alt="2024 Activity Heatmap">
+                <img src="generated/clock_2024.svg" alt="2024 Activity Clock">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

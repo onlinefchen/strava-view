@@ -1,0 +1,10 @@
+# GitHub Pages configuration
+include:
+  - data/
+  - generated/
+  - .env.example
+
+exclude:
+  - generate_visualizations.py
+  - data_interface.md
+  - README.md
